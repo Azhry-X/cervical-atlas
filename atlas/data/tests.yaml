@@ -1,0 +1,1337 @@
+- id: canadian-c-spine-rule
+  type: test
+  title: Canadian C-Spine Rule (CCR)
+  page: 1
+  video_url: https://www.youtube.com/watch?v=F4AbC9FQ-sA
+  video_title: Canadian C-Spine Rule | Cervical Spine Fractures
+  summary: Three-question clinical decision rule to determine the need for cervical spine radiography in alert, stable trauma patients.
+  steps:
+  - 'Question 1 — High-risk factor: age ≥ 65 years, dangerous mechanism, or paresthesias in extremities → image.'
+  - 'Question 2 — Low-risk factor: simple rear-end MVC, sitting in ED, ambulatory at any time, delayed onset of neck pain, or no midline tenderness → allows ROM assessment.'
+  - 'Question 3 — Active rotation: able to actively rotate neck 45° left and right → no imaging.'
+  positive: '3 questions: (1) high-risk factor (age ≥ 65 years, dangerous mechanism, or paresthesias in extremities) → image; (2) low-risk factor (simple rear-end MVC, sitting in ED, ambulatory at any time, delayed onset of neck pain, or no midline tenderness) allows ROM assessment; (3) able to actively rotate neck 45° left and right → no imaging.'
+  interpretation: 'Derivation: Sn 100% (98–100%), Sp 42.5% (40–44%). Validation vs NEXUS: Sn 99.4% vs 90.7%; Sp 45.1% vs 36.8%; radiography rates 55.9% vs 66.6% (all P < 0.001).'
+  metrics: 'Stiell 2001 JAMA: Sn 100% (98–100%), Sp 42.5% (40–44%). Stiell 2003 NEJM (CCR vs NEXUS validation): Sn 99.4% vs 90.7%; Sp 45.1% vs 36.8%; radiography rates 55.9% vs 66.6% (all P < 0.001).'
+  evidence: H
+  sources:
+  - text: Stiell 2001 JAMA
+    url: https://doi.org/10.1001/jama.286.15.1841
+    free_full_text: false
+  - text: Stiell 2003 NEJM
+    url: https://doi.org/10.1056/NEJMoa031375
+    free_full_text: false
+  review_status: approved
+- id: nexus-criteria
+  type: test
+  title: NEXUS Low-Risk Criteria
+  page: 1
+  summary: National Emergency X-Radiography Utilization Study (NEXUS) low-risk decision instrument to rule out cervical spine injury after blunt trauma.
+  steps:
+  - Assess for absence of posterior midline cervical tenderness, normal alertness, no evidence of intoxication, no focal neurological deficit, and no painful distracting injury.
+  - Compare with Canadian C-Spine Rule validation performance when selecting a trauma clearance protocol.
+  positive: Sn 99.0% (98.0–99.6%); Sp 12.9%; NPV 99.8%.
+  interpretation: NEXUS has high sensitivity (Sn 99.0%, NPV 99.8%) and lower specificity (Sp 12.9%); in head-to-head validation CCR had higher sensitivity and specificity (Sn 99.4% vs 90.7%; Sp 45.1% vs 36.8%; radiography rates 55.9% vs 66.6%, all P < 0.001).
+  metrics: 'Hoffman 2000 NEJM: Sn 99.0% (98.0–99.6%); Sp 12.9%; NPV 99.8%. Stiell 2003 NEJM (CCR vs NEXUS): Sn 99.4% vs 90.7%; Sp 45.1% vs 36.8%; radiography rates 55.9% vs 66.6% (all P < 0.001).'
+  evidence: H
+  sources:
+  - text: Hoffman 2000 NEJM
+    url: https://doi.org/10.1056/NEJM200007133430203
+    free_full_text: false
+  - text: Stiell 2003 NEJM
+    url: https://doi.org/10.1056/NEJMoa031375
+    free_full_text: false
+  review_status: approved
+- id: jospt-2017-neck-pain-cpg
+  type: info
+  title: JOSPT Neck Pain Clinical Practice Guideline (Blanpied 2017)
+  page: 1
+  summary: 'APTA Orthopaedic Section / JOSPT clinical practice guideline for neck pain: serious pathology triage, 4-category classification, examination sets, outcome measures, and multimodal intervention recommendations.'
+  steps:
+  - 'Serious pathology screen: "Clinicians should perform assessments … to determine the potential for the presence of serious pathology (eg, infection, cancer, cardiac involvement, arterial insufficiency, upper cervical ligamentous insufficiency, unexplained cranial nerve dysfunction or fracture), and refer for consultation as indicated."'
+  - 'CPG classification: neck pain with mobility deficits · with movement coordination impairments (including WAD) · with headaches (cervicogenic) · with radiating pain (radicular).'
+  - 'Outcome measures: "Clinicians should use validated self-report questionnaires … to identify a patient''s baseline status and to monitor changes relative to pain, function, disability, and psychosocial functioning."'
+  - 'WAD recovery advice: "Reassurance to the patient that recovery is expected to occur within the first 2 to 3 months".'
+  positive: '"Clinicians should perform assessments … to determine the potential for the presence of serious pathology (eg, infection, cancer, cardiac involvement, arterial insufficiency, upper cervical ligamentous insufficiency, unexplained cranial nerve dysfunction or fracture), and refer for consultation as indicated."'
+  interpretation: Classify patients after excluding serious pathology and match interventions to the specific CPG subgroup and chronicity stage.
+  metrics: 'Level: Guideline. Blanpied 2017 JOSPT neck pain CPG: serious pathology screen, 4-category classification, exam sets, validated outcome questionnaires, and stage-specific intervention recommendations.'
+  evidence: Guideline
+  sources:
+  - text: Blanpied 2017 JOSPT neck pain CPG
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: cervical-artery-dysfunction-ifompt
+  type: info
+  title: Cervical Artery Dysfunction — IFOMPT International Framework (2023)
+  page: 1
+  summary: IFOMPT International Framework (2023) clinical reasoning approach to vascular pathologies of the neck before orthopedic manual therapy.
+  steps:
+  - 'IFOMPT International Framework (2023): vascular pathologies of the neck are rare but must be considered; recognised mainly through history-taking and adapted physical examination.'
+  - 'Positional VBI tests: sensitivity 0–57%, specificity 67–100%; "the premanipulative tests do not seem valid"; positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.'
+  - 'Symptom checklist in words (E): dizziness, diplopia, dysarthria, dysphagia, drop attacks, nausea, nystagmus, numbness, ataxia, new unusual one-sided neck / head pain.'
+  positive: 'IFOMPT International Framework (2023): vascular pathologies of the neck are rare but must be considered; recognised mainly through history-taking and adapted physical examination.'
+  interpretation: Do not rely on positional VBI testing; recognize potential arterial pathology through targeted history-taking (new unusual one-sided neck / head pain and ischaemic symptoms) and adapted neurological/vascular examination.
+  metrics: 'Level: Guideline / M. Rushton 2023 JOSPT (Guideline): IFOMPT International Framework (2023). Hutting 2013 Man Ther & Hutting 2022 Musculoskelet Sci Pract (M): sensitivity 0–57%, specificity 67–100%; "the premanipulative tests do not seem valid"; positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.'
+  evidence: Guideline
+  sources:
+  - text: Rushton 2023 JOSPT
+    url: https://doi.org/10.2519/jospt.2022.11147
+    free_full_text: false
+  - text: Hutting 2013 Man Ther
+    url: https://doi.org/10.1016/j.math.2012.09.009
+    free_full_text: false
+  - text: Hutting 2022 Musculoskelet Sci Pract
+    url: https://doi.org/10.1016/j.msksp.2022.102619
+    free_full_text: false
+  review_status: approved
+- id: positional-vbi-tests
+  type: test
+  title: Positional VBI Tests (Excluded from IFOMPT Framework)
+  page: 1
+  summary: Diagnostic validity of pre-manipulative positional vertebrobasilar insufficiency (VBI) tests and their exclusion from the IFOMPT International Framework.
+  steps:
+  - 'Do not rely on pre-manipulative positional extension-rotation tests to clear the cervical arteries: "the premanipulative tests do not seem valid".'
+  - Positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.
+  - Rely on careful vascular history-taking, risk-factor review, and cranial nerve / neurological examination.
+  positive: sensitivity 0–57%, specificity 67–100%; "the premanipulative tests do not seem valid"; positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.
+  interpretation: Because sensitivity is 0–57% (specificity 67–100%), a negative positional VBI test cannot rule out cervical arterial pathology.
+  metrics: 'Hutting 2013 Man Ther & Hutting 2022 Musculoskelet Sci Pract: sensitivity 0–57%, specificity 67–100%; "the premanipulative tests do not seem valid"; positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.'
+  evidence: M
+  sources:
+  - text: Hutting 2013 Man Ther
+    url: https://doi.org/10.1016/j.math.2012.09.009
+    free_full_text: false
+  - text: Hutting 2022 Musculoskelet Sci Pract
+    url: https://doi.org/10.1016/j.msksp.2022.102619
+    free_full_text: false
+  review_status: approved
+- id: cook-myelopathy-cluster
+  type: test
+  title: Cervical Myelopathy Clinical Cluster (Cook 2010)
+  page: 1
+  summary: Five-item clinical test cluster to rule out or rule in cervical spine myelopathy against MRI cord signal/compression.
+  steps:
+  - 1. Gait deviation (wide-based, ataxic, or unsteady gait).
+  - 2. + Hoffmann's sign.
+  - 3. Inverted supinator sign.
+  - 4. + Babinski sign.
+  - 5. Age > 45 y.
+  positive: '5 items: gait deviation, + Hoffmann, inverted supinator sign, + Babinski, age > 45 y. ≤ 1 of 5 positive: LR− 0.18 (0.12–0.42) → rules out; ≥ 3 of 5: LR+ 30.9 (5.5–181.8), post-test 94%; 4 of 5: post-test 99+% (pre-test 35%).'
+  interpretation: Nearly all single myelopathy tests are specific but poorly sensitive → poor screening tools alone (Cook 2011). Using the 5-item cluster, ≤ 1 of 5 positive helps rule out (LR− 0.18), while ≥ 3 of 5 (LR+ 30.9, post-test 94%) or 4 of 5 (post-test 99+%) strongly rules in cervical myelopathy.
+  metrics: 'Cook 2010 J Man Manip Ther: ≤ 1 of 5 positive: LR− 0.18 (0.12–0.42) → rules out; ≥ 3 of 5: LR+ 30.9 (5.5–181.8), post-test 94%; 4 of 5: post-test 99+% (pre-test 35%). Single tests: inverted supinator sign LR+ 29.1 (5.1–171.5); Achilles hyperreflexia 7.8 (2.5–25.4); quadriceps hyperreflexia 6.9 (2.8–17.5); Hoffmann LR+ 4.9 (2.6–9.6); age > 45 y LR− 0.48 (0.26–0.85). Cook 2011 J Manipulative Physiol Ther: nearly all tests specific but poorly sensitive → poor screening tools alone.'
+  evidence: M
+  calculator:
+    kind: formula
+    decimals: 0
+    value_label: Positive items (of 5) · Pre-test 35% (Cook 2010)
+    expr: c1 + c2 + c3 + c4 + c5
+    inputs:
+    - heading: Cook 2010 cervical myelopathy cluster (5 items; pre-test 35%)
+    - key: c1
+      type: check
+      label: 1. Gait deviation
+    - key: c2
+      type: check
+      label: 2. + Hoffmann
+    - key: c3
+      type: check
+      label: 3. Inverted supinator sign
+    - key: c4
+      type: check
+      label: 4. + Babinski
+    - key: c5
+      type: check
+      label: 5. Age > 45 y
+    outputs:
+    - when: v >= 4
+      text: '4 of 5 (or 5 of 5) positive (pre-test 35%): ≥ 3 of 5 LR+ 30.9 (5.5–181.8); 4 of 5: post-test 99+%'
+      tone: bad
+    - when: v == 3
+      text: '≥ 3 of 5 positive (pre-test 35%): LR+ 30.9 (5.5–181.8), post-test 94%'
+      tone: bad
+    - when: v == 2
+      text: '2 of 5 positive (pre-test 35%): indeterminate — examine further'
+      tone: warn
+    - when: v <= 1
+      text: '≤ 1 of 5 positive (pre-test 35%): LR− 0.18 (0.12–0.42) → rules out'
+      tone: good
+  sources:
+  - text: Cook 2010 J Man Manip Ther
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3113267/
+    free_full_text: true
+  - text: Cook 2011 J Manipulative Physiol Ther
+    url: https://doi.org/10.1016/j.jmpt.2011.08.008
+    free_full_text: false
+  review_status: approved
+- id: hoffmann-sign
+  type: test
+  title: Hoffmann's Sign
+  page: 1
+  video_url: https://www.youtube.com/watch?v=uVI55amnVuk
+  video_title: Hoffmann's Sign or Reflex | Upper Motor Neuron Lesion
+  summary: Upper motor neuron reflex test evaluating corticospinal tract dysfunction in suspected cervical myelopathy.
+  steps:
+  - Support the patient's relaxed hand with the wrist in slight dorsiflexion and fingers partially flexed.
+  - Stabilise the middle finger proximal to the distal interphalangeal joint and briskly flick the distal phalanx into flexion.
+  - Observe for reflex flexion and adduction of the thumb and/or flexion of the index finger.
+  positive: 'Hoffmann LR+ 4.9 (2.6–9.6) (Cook 2010); vs cord compression: Sn 58%, Sp 78% (Glaser 2001).'
+  interpretation: Useful for ruling in upper motor neuron involvement as part of the Cook 5-item myelopathy cluster, but poorly sensitive as a standalone screen.
+  metrics: 'Cook 2010 J Man Manip Ther (M): Hoffmann LR+ 4.9 (2.6–9.6). Glaser 2001 Iowa Orthop J (L): Sn 58%, Sp 78% vs cord compression.'
+  evidence: M
+  sources:
+  - text: Cook 2010 J Man Manip Ther
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3113267/
+    free_full_text: true
+  - text: Glaser 2001 Iowa Orthop J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC1888193/
+    free_full_text: true
+  review_status: approved
+- id: inverted-supinator-sign
+  type: test
+  title: Inverted Supinator Sign (Brachioradialis Reflex)
+  page: 1
+  video_url: https://www.youtube.com/watch?v=_H5Pv8istcI
+  video_title: Inverted Supinator Sign | Upper Motor Neuron Lesion
+  summary: Pathological upper motor neuron reflex response during brachioradialis tendon percussion in suspected cervical myelopathy.
+  steps:
+  - Support the patient's forearm in neutral rotation and slight elbow flexion.
+  - Briskly tap the distal brachioradialis tendon near the radial styloid.
+  - Observe for finger flexion and/or slight elbow extension with diminished brachioradialis reflex.
+  positive: inverted supinator sign LR+ 29.1 (5.1–171.5).
+  interpretation: Highest positive likelihood ratio among single myelopathy signs in Cook 2010 (LR+ 29.1, 5.1–171.5); interpret within the 5-item Cook myelopathy cluster.
+  metrics: 'Cook 2010 J Man Manip Ther: inverted supinator sign LR+ 29.1 (5.1–171.5).'
+  evidence: M
+  sources:
+  - text: Cook 2010 J Man Manip Ther
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3113267/
+    free_full_text: true
+  review_status: approved
+- id: babinski-hyperreflexia-myelopathy
+  type: test
+  title: Babinski Sign, Hyperreflexia & Gait Myelopathy Screen
+  page: 1
+  summary: Single upper motor neuron signs and systematic review synthesis for cervical myelopathy screening.
+  steps:
+  - Observe gait for wide-based, unsteady, or spastic gait deviation.
+  - Test plantar response (Babinski sign) and lower-limb deep tendon reflexes (quadriceps and Achilles hyperreflexia).
+  - Combine with Hoffmann's sign, inverted supinator sign, and age > 45 y in the 5-item Cook cluster.
+  positive: inverted supinator sign LR+ 29.1 (5.1–171.5); Achilles hyperreflexia 7.8 (2.5–25.4); quadriceps hyperreflexia 6.9 (2.8–17.5); Hoffmann LR+ 4.9 (2.6–9.6); age > 45 y LR− 0.48 (0.26–0.85).
+  interpretation: 'Myelopathy tests (SR, Cook 2011): nearly all tests specific but poorly sensitive → poor screening tools alone.'
+  metrics: 'Cook 2010 J Man Manip Ther: inverted supinator sign LR+ 29.1 (5.1–171.5); Achilles hyperreflexia 7.8 (2.5–25.4); quadriceps hyperreflexia 6.9 (2.8–17.5); Hoffmann LR+ 4.9 (2.6–9.6); age > 45 y LR− 0.48 (0.26–0.85). Cook 2011 J Manipulative Physiol Ther: nearly all tests specific but poorly sensitive → poor screening tools alone.'
+  evidence: M
+  sources:
+  - text: Cook 2010 J Man Manip Ther
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3113267/
+    free_full_text: true
+  - text: Cook 2011 J Manipulative Physiol Ther
+    url: https://doi.org/10.1016/j.jmpt.2011.08.008
+    free_full_text: false
+  review_status: approved
+- id: sharp-purser-test
+  type: test
+  title: Sharp-Purser Test
+  page: 1
+  video_url: https://www.youtube.com/watch?v=9mbXER7QtNM
+  video_title: Sharp Purser Test | Transverse Ligament Integrity
+  summary: Clinical test for atlantoaxial instability and transverse ligament insufficiency (studied in rheumatoid arthritis).
+  steps:
+  - With the patient seated and neck semi-flexed, stabilise the spinous process of C2 with a pinch grip.
+  - Apply a gentle posterior translation force through the forehead while monitoring for a clunky relocation or symptom reduction.
+  - 'Cautions: positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework; do not provoke cord compression.'
+  positive: Sp 96%; Sn 88% when subluxation > 4 mm.
+  interpretation: In rheumatoid arthritis (Uitvlugt 1988), Sp 96% and Sn 88% when subluxation > 4 mm. Note that craniovertebral ligament testing is excluded from the IFOMPT Framework (Hutting 2022).
+  metrics: 'Uitvlugt 1988 Arthritis Rheum (L): Sp 96%; Sn 88% when subluxation > 4 mm. Hutting 2013 Phys Ther (M): 5 studies; specificity sufficient, sensitivity variable; membrane tests best — no pooled numbers.'
+  evidence: L
+  sources:
+  - text: Uitvlugt 1988 Arthritis Rheum
+    url: https://doi.org/10.1002/art.1780310715
+    free_full_text: false
+  - text: Hutting 2013 Phys Ther
+    url: https://doi.org/10.2522/ptj.20130186
+    free_full_text: false
+  review_status: approved
+- id: alar-ligament-stress-test
+  type: test
+  title: Alar Ligament Stress Test & Upper Cervical Instability Screen
+  page: 1
+  video_url: https://www.youtube.com/watch?v=pj-8cAkFYiA
+  video_title: Alar Ligament Stress Test | Upper Cervical Spine Instability
+  summary: Upper cervical ligamentous integrity assessment and systematic review findings on craniovertebral instability tests.
+  steps:
+  - Stabilise the spinous process and lamina of C2 while passively side-bending or rotating the occiput/head.
+  - Normally, immediate coupled contralateral movement of the C2 spinous process is felt.
+  - 'Note: positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework; refer for imaging/consultation if upper cervical ligamentous insufficiency is suspected.'
+  positive: 5 studies; specificity sufficient, sensitivity variable; membrane tests best — no pooled numbers.
+  interpretation: 'Hutting 2013 Phys Ther SR (5 studies): specificity sufficient, sensitivity variable; membrane tests best — no pooled numbers. Positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework (Hutting 2022).'
+  metrics: 'Hutting 2013 Phys Ther (M): 5 studies; specificity sufficient, sensitivity variable; membrane tests best — no pooled numbers. Hutting 2022 Musculoskelet Sci Pract (M): positional testing and craniovertebral ligament testing are excluded from the IFOMPT Framework.'
+  evidence: M
+  sources:
+  - text: Hutting 2013 Phys Ther
+    url: https://doi.org/10.2522/ptj.20130186
+    free_full_text: false
+  - text: Hutting 2022 Musculoskelet Sci Pract
+    url: https://doi.org/10.1016/j.msksp.2022.102619
+    free_full_text: false
+  review_status: approved
+- id: quebec-task-force-wad
+  type: info
+  title: Quebec Task Force (QTF) Whiplash-Associated Disorders (WAD) Grades 0–IV
+  page: 1
+  summary: Quebec Task Force clinical classification of Whiplash-Associated Disorders (WAD) from Grade 0 to Grade IV.
+  steps:
+  - 'WAD Grade 0: no complaint about the neck; no physical sign(s).'
+  - 'WAD Grade I: neck complaint of pain, stiffness, or tenderness only; no physical sign(s).'
+  - 'WAD Grade II: neck complaint AND musculoskeletal sign(s) (decreased range of motion and point tenderness).'
+  - 'WAD Grade III: neck complaint AND neurological sign(s) (decreased or absent deep tendon reflexes, weakness, and sensory deficits).'
+  - 'WAD Grade IV: neck complaint AND fracture or dislocation.'
+  positive: Quebec Task Force grades 0–IV (see steps for each grade).
+  interpretation: WAD Grade IV requires fracture/dislocation trauma management; WAD Grade 2 or 3 is a predictor of poorer outcome in Walton 2013.
+  metrics: 'Spitzer 1995 Spine: Quebec Task Force grades 0–IV (see steps for each grade).'
+  evidence: E
+  sources:
+  - text: Spitzer 1995 Spine
+    url: https://pubmed.ncbi.nlm.nih.gov/7604354/
+    free_full_text: false
+  review_status: approved
+- id: wainner-radiculopathy-cluster
+  type: test
+  title: Wainner Cervical Radiculopathy Cluster
+  page: 2
+  summary: Diagnostic test cluster for cervical radiculopathy evaluated against needle electromyography / nerve conduction studies.
+  steps:
+  - '4-item cluster LR+ 30.3 (wide CI); items: see original paper.'
+  - 'Perform ULTT A as the primary screening test: ULTT A is most useful to rule out cervical radiculopathy.'
+  positive: '4-item cluster LR+ 30.3 (wide CI); ULTT A most useful to rule out; items: see original paper.'
+  interpretation: 'When the 4-item cluster is positive, LR+ is 30.3 (wide CI); a negative ULTT A is most useful to rule out cervical radiculopathy (items: see original paper).'
+  metrics: 'Wainner 2003 Spine: 4-item cluster LR+ 30.3 (wide CI); ULTT A most useful to rule out (items: see original paper).'
+  evidence: M
+  sources:
+  - text: Wainner 2003 Spine
+    url: https://doi.org/10.1097/00007632-200301010-00014
+    free_full_text: false
+  review_status: approved
+- id: flexion-rotation-test
+  type: test
+  title: Cervical Flexion-Rotation Test (FRT)
+  page: 2
+  video_url: https://www.youtube.com/watch?v=TziMAn77ZRU
+  video_title: Flexion Rotation Test | Upper Cervical Spine Rotation
+  summary: Upper cervical (C1–C2) passive rotation assessment in full cervical flexion for cervicogenic headache.
+  steps:
+  - With the patient supine and relaxed, passively flex the cervical spine fully to pre-tension the lower cervical segments.
+  - Maintain full flexion and passively rotate the head left and right to end-feel or symptom reproduction.
+  - Compare range, symmetry, and headache reproduction between left and right sides.
+  positive: Sn 91%, Sp 90%, overall accuracy 91% (Ogince); Sn 90%, Sp 88%, κ 0.85, usable by inexperienced examiners (Hall).
+  interpretation: High diagnostic accuracy and inter-examiner reliability for cervicogenic headache, including when performed by inexperienced examiners.
+  metrics: 'Ogince 2007 Man Ther: Sn 91%, Sp 90%, overall accuracy 91%. Hall 2008 J Manipulative Physiol Ther: Sn 90%, Sp 88%, κ 0.85, usable by inexperienced examiners.'
+  evidence: M
+  sources:
+  - text: Ogince 2007 Man Ther
+    url: https://doi.org/10.1016/j.math.2006.06.016
+    free_full_text: false
+  - text: Hall 2008 J Manipulative Physiol Ther
+    url: https://doi.org/10.1016/j.jmpt.2008.03.012
+    free_full_text: false
+  review_status: approved
+- id: acute-neck-pain-prognosis-hush
+  type: info
+  title: Acute Neck Pain Prognostic Trajectory (Hush 2011 Meta-Analysis)
+  page: 2
+  summary: Meta-analysis of the clinical course of acute idiopathic neck pain and disability over 12 months.
+  steps:
+  - 'Pain trajectory: 64 (61–67) at onset → 35 (32–38) at 6.5 weeks → 42 (39–45) at 12 months.'
+  - 'Disability trajectory: 30 → 17 by 6.5 weeks, with no further improvement at 12 months.'
+  - Counsel patients that rapid initial improvement occurs by 6.5 weeks, but residual or recurrent symptoms are common at 12 months.
+  positive: pain 64 (61–67) at onset → 35 (32–38) at 6.5 weeks → 42 (39–45) at 12 months; disability 30 → 17 by 6.5 weeks, no further improvement at 12 months.
+  interpretation: Most improvement in acute neck pain and disability occurs within the first 6.5 weeks, followed by a plateau through 12 months.
+  metrics: 'Hush 2011 Arch Phys Med Rehabil: pain 64 (61–67) at onset → 35 (32–38) at 6.5 weeks → 42 (39–45) at 12 months; disability 30 → 17 by 6.5 weeks, no further improvement at 12 months.'
+  evidence: H
+  sources:
+  - text: Hush 2011 Arch Phys Med Rehabil
+    url: https://doi.org/10.1016/j.apmr.2010.12.025
+    free_full_text: false
+  review_status: approved
+- id: whiplash-prognosis-walton-ritchie
+  type: info
+  title: Whiplash (WAD) Prognostic Predictors & WhipPredict CPR
+  page: 2
+  summary: Prognostic risk factors, clinical course, and the WhipPredict clinical prediction rule after acute whiplash injury.
+  steps:
+  - 'Walton 2013 poor-outcome predictors: high baseline pain (> 5.5/10), NDI > 14.5/50, headache at inception, female sex, less than post-secondary education, WAD grade 2 or 3 (robust to publication bias).'
+  - 'Ritchie 2013 course + WhipPredict CPR: ≈ 50% fully recover, 25% persistent moderate/severe pain and disability, 25% milder disability; WhipPredict CPR PPV 71% (older age + high NDI + hyperarousal → chronic; younger + low NDI → recovery).'
+  - 'CPG WAD recovery advice: "Reassurance to the patient that recovery is expected to occur within the first 2 to 3 months".'
+  positive: high baseline pain (> 5.5/10), NDI > 14.5/50, headache at inception, female sex, less than post-secondary education, WAD grade 2 or 3 · WhipPredict CPR PPV 71%.
+  interpretation: Stratify acute WAD patients early using baseline pain (> 5.5/10), NDI (> 14.5/50), age, and hyperarousal while providing active reassurance.
+  metrics: 'Walton 2013 JOSPT (M): high baseline pain (> 5.5/10), NDI > 14.5/50, headache at inception, female sex, less than post-secondary education, WAD grade 2 or 3 (robust to publication bias). Ritchie 2013 Pain (L): ≈ 50% fully recover, 25% persistent moderate/severe pain and disability, 25% milder disability; WhipPredict CPR PPV 71%. Blanpied 2017 JOSPT (Guideline): "Reassurance to the patient that recovery is expected to occur within the first 2 to 3 months".'
+  evidence: M
+  sources:
+  - text: Walton 2013 JOSPT
+    url: https://doi.org/10.2519/jospt.2013.4507
+    free_full_text: false
+  - text: Ritchie 2013 Pain
+    url: https://doi.org/10.1016/j.pain.2013.07.001
+    free_full_text: false
+  - text: Blanpied 2017 JOSPT
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: radiculopathy-natural-course-wong
+  type: info
+  title: Cervical Radiculopathy Natural Course & Prognosis (Wong 2014)
+  page: 2
+  summary: Systematic review of the natural history and prognostic factors of cervical radiculopathy with non-operative management.
+  steps:
+  - Most patients experience substantial improvement within 4–6 months.
+  - Complete recovery occurs in ≈ 83% of patients by 24–36 months.
+  - Workers' compensation claim status is associated with a poorer prognosis.
+  positive: substantial improvement within 4–6 months; complete recovery in ≈ 83% by 24–36 months; workers' compensation = poorer prognosis.
+  interpretation: Favourable natural course supports structured non-operative care in the absence of progressive neurological deficit or myelopathy.
+  metrics: 'Wong 2014 Spine J: substantial improvement within 4–6 months; complete recovery in ≈ 83% by 24–36 months; workers'' compensation = poorer prognosis.'
+  evidence: M
+  sources:
+  - text: Wong 2014 Spine J
+    url: https://doi.org/10.1016/j.spinee.2014.02.032
+    free_full_text: false
+  review_status: approved
+- id: cervical-arom-rondoni
+  type: test
+  title: Active Cervical Range of Motion (AROM) Reliability (Rondoni 2017)
+  page: 3
+  summary: Systematic review and meta-analysis comparing intrarater and inter-rater reliability of inexpensive vs expensive active cervical ROM measurement devices.
+  steps:
+  - Measure active cervical flexion, extension, left/right rotation, and left/right lateral flexion (side-bending) in a standardised seated posture.
+  - Intrarater ICC 0.93 (inexpensive) vs 0.91 (expensive devices); inter-rater 0.80 vs 0.87 → expensive devices add no reliability.
+  - Note that side-bending is the least reliable movement plane.
+  positive: intrarater ICC 0.93 (inexpensive) vs 0.91 (expensive devices); inter-rater 0.80 vs 0.87 → expensive devices add no reliability; side-bending least reliable.
+  interpretation: Inexpensive clinical instruments achieve high intrarater (ICC 0.93) and inter-rater (ICC 0.80) reliability; expensive 3D/electrogoniometric devices add no reliability.
+  metrics: 'Rondoni 2017 J Manipulative Physiol Ther: intrarater ICC 0.93 (inexpensive) vs 0.91 (expensive devices); inter-rater 0.80 vs 0.87 → expensive devices add no reliability; side-bending least reliable.'
+  evidence: M
+  sources:
+  - text: Rondoni 2017 J Manipulative Physiol Ther
+    url: https://doi.org/10.1016/j.jmpt.2017.07.002
+    free_full_text: false
+  review_status: approved
+- id: craniocervical-flexion-test
+  type: test
+  title: Craniocervical Flexion Test (CCFT)
+  page: 3
+  video_url: https://www.youtube.com/watch?v=cAfcQIRm9Ew
+  video_title: Craniocervical Flexion Test / CCFT | Deep Cervical Neck Flexors
+  summary: Low-load motor control assessment of deep cervical flexor (longus capitis and longus colli) activation and isometric endurance using a pressure biofeedback unit.
+  steps:
+  - Position the patient in crook lying with the craniocervical spine in neutral and place the folded pressure biofeedback cuff suboccipitally.
+  - Guide the patient to perform a gentle craniocervical nod across 5 progressive pressure stages (pressure biofeedback) testing deep cervical flexor activation and endurance.
+  - Monitor for superficial sternocleidomastoid or scalene substitution, head retraction, or jerky pressure loss.
+  positive: 5 progressive pressure stages (pressure biofeedback) testing deep cervical flexor activation and endurance.
+  interpretation: Identifies motor control impairment and reduced endurance of the deep cervical flexors in neck pain, WAD, and cervicogenic headache.
+  metrics: 'Jull 2008 J Manipulative Physiol Ther: 5 progressive pressure stages (pressure biofeedback) testing deep cervical flexor activation and endurance.'
+  evidence: E
+  sources:
+  - text: Jull 2008 J Manipulative Physiol Ther
+    url: https://doi.org/10.1016/j.jmpt.2008.08.003
+    free_full_text: false
+  review_status: approved
+- id: neck-flexor-endurance-test
+  type: test
+  title: Deep Neck Flexor (DNF) Endurance Test
+  page: 3
+  video_url: https://www.youtube.com/watch?v=0JEWM_McBmM
+  video_title: Neck Flexor Endurance Test | Deep Neck Flexors
+  summary: Clinical endurance test of the deep cervical flexor muscles in supine hook-lying.
+  steps:
+  - Position the patient in supine hook-lying with the chin maximally tucked (craniocervical flexion).
+  - Instruct the patient to lift the head slightly off the plinth while maintaining the craniocervical nod.
+  - Terminate the test when the skin folds separate due to loss of chin tuck, the head touches the clinician's hand, or symptoms limit holding — record the hold time and compare with the patient’s own baseline.
+  positive: Record hold time and compare with the patient’s own baseline over visits.
+  interpretation: Recommended in the JOSPT CPG coordination examination set alongside the craniocervical flexion test; compare serial within-patient hold times.
+  metrics: 'Deep neck flexor endurance test: no published norm used — compare with the patient’s own baseline (E). Blanpied 2017 JOSPT (Guideline): coordination exam set includes cranial cervical flexion + neck flexor endurance tests.'
+  evidence: E
+  sources:
+  - text: Blanpied 2017 JOSPT
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: cervical-joint-position-error
+  type: test
+  title: Cervical Joint Position Error (JPE) & Proprioception
+  page: 3
+  summary: Head-to-neutral relocation test assessing cervicalafferent proprioceptive deficit and sensorimotor control.
+  steps:
+  - Seat the patient facing a wall target with a head-mounted laser pointer and establish the natural neutral head posture.
+  - Blindfold the patient, instruct them to actively rotate or flex/extend the head and return as accurately as possible to the starting neutral position.
+  - Assess relocation error across trials.
+  positive: 'proprioceptive deficit in neck pain (Revel); abnormal rotation JPE: PPV 88% but Sn 60%, Sp 54% for balance problems in WAD.'
+  interpretation: Demonstrates proprioceptive deficit in neck pain (Revel 1991); in WAD, abnormal rotation JPE has PPV 88% but Sn 60%, Sp 54% for balance problems (Treleaven 2006).
+  metrics: 'Revel 1991 Arch Phys Med Rehabil & Treleaven 2006 Man Ther: proprioceptive deficit in neck pain (Revel); abnormal rotation JPE: PPV 88% but Sn 60%, Sp 54% for balance problems in WAD.'
+  evidence: L
+  sources:
+  - text: Revel 1991 Arch Phys Med Rehabil
+    url: https://pubmed.ncbi.nlm.nih.gov/2009044/
+    free_full_text: false
+  - text: Treleaven 2006 Man Ther
+    url: https://doi.org/10.1016/j.math.2005.04.003
+    free_full_text: false
+  review_status: approved
+- id: cervical-segmental-mobility-ppt-hhd
+  type: test
+  title: Segmental Mobility, Pressure Pain Threshold (PPT) & HHD
+  page: 3
+  summary: JOSPT CPG physical examination components for cervical/thoracic segmental mobility, algometric pressure pain threshold, and isometric strength.
+  steps:
+  - 'Mobility deficits: assess AROM, flexion-rotation test, and cervical/thoracic segmental mobility.'
+  - 'Headache: assess AROM, FRT, and upper cervical mobility.'
+  - 'Radiating pain: assess neurodynamic tests, Spurling, distraction, and Valsalva.'
+  - 'Coordination: assess cranial cervical flexion + neck flexor endurance tests; algometric pressure pain threshold; hand-held dynamometry as a write-in measure.'
+  positive: 'mobility deficits: AROM, flexion-rotation test, cervical/thoracic segmental mobility; headache: AROM, FRT, upper cervical mobility; radiating: neurodynamic, Spurling, distraction, Valsalva; coordination: cranial cervical flexion + neck flexor endurance tests; algometric pressure pain threshold.'
+  interpretation: Use the CPG examination set matched to the patient's primary classification category.
+  metrics: 'Blanpied 2017 JOSPT (Guideline): CPG exam set. HHD: write-in measure (E).'
+  evidence: E
+  sources:
+  - text: Blanpied 2017 JOSPT
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: upper-limb-neuro-screen-c5-t1
+  type: test
+  title: Upper-Limb Neurological Screen (C5–T1)
+  page: 3
+  summary: Root-by-root dermatome, myotome, and deep tendon reflex neurological examination for C5–T1 radiculopathy.
+  steps:
+  - 'C5: lateral arm sensation; shoulder abduction (deltoid) strength; biceps reflex.'
+  - 'C6: lateral forearm, thumb, and index finger sensation; elbow flexion and wrist extension strength; brachioradialis reflex.'
+  - 'C7: middle finger sensation; elbow extension and wrist flexion strength; triceps reflex.'
+  - 'C8: ring and little finger sensation; thumb extension and finger flexion strength.'
+  - 'T1: medial forearm/arm sensation; finger abduction and adduction (interossei) strength.'
+  positive: Concordant dermatomal sensory loss, myotomal weakness, or diminished deep tendon reflex in a C5–T1 nerve root distribution (E).
+  interpretation: Combine C5–T1 neurological examination with UMN / myelopathy screening (Hoffmann, inverted supinator, Babinski, gait) and neurodynamic/provocative tests.
+  metrics: Expert anatomical/clinical neurological examination (E).
+  evidence: E
+  sources:
+  - text: Blanpied 2017 JOSPT
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: spurling-test
+  type: test
+  title: Spurling's Test
+  page: 4
+  video_url: https://www.youtube.com/watch?v=3ZSNdv0o0yk
+  video_title: Spurling's Test | Cervical Radicular Syndrome
+  summary: Foraminal compression provocative test to rule in cervical radiculopathy.
+  steps:
+  - With the patient seated, guide the cervical spine into lateral flexion (and extension/rotation per protocol) toward the symptomatic side.
+  - If symptoms are not reproduced by positioning alone, apply gentle axial compression through the top of the head.
+  - Combine Spurling + axial traction + arm squeeze to rule in cervical radiculopathy (Thoomes 2018).
+  positive: 'Spurling A: Sn 0.50 (0.27–0.73), Sp 0.86 (0.77–0.94) (Rubinstein 2007 / Wainner 2003 data) · Sp 0.89–1.00; Sn 0.38–0.97 (Thoomes 2018).'
+  interpretation: Low–moderate Sn, high Sp → positive test rules in cervical radiculopathy; combine Spurling + axial traction + arm squeeze to rule in.
+  metrics: 'Rubinstein 2007 Eur Spine J: Spurling, traction/distraction and Valsalva: low–moderate Sn, high Sp → rule in; Spurling A: Sn 0.50 (0.27–0.73), Sp 0.86 (0.77–0.94). Thoomes 2018 Spine J: Sp 0.89–1.00; Sn 0.38–0.97; combine Spurling + axial traction + arm squeeze to rule in; 4 negative neurodynamic tests + negative arm squeeze to rule out.'
+  evidence: M
+  sources:
+  - text: Rubinstein 2007 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2200707/
+    free_full_text: true
+  - text: Thoomes 2018 Spine J
+    url: https://doi.org/10.1016/j.spinee.2017.08.241
+    free_full_text: false
+  review_status: approved
+- id: cervical-distraction-test
+  type: test
+  title: Cervical Distraction Test
+  page: 4
+  video_url: https://www.youtube.com/watch?v=uLdzgd5snmw
+  video_title: Cervical Distraction Test | Cervical Radicular Syndrome
+  summary: Manual axial cervical traction relief test for cervical radiculopathy and the Raney traction CPR.
+  steps:
+  - With the patient supine, grasp beneath the occiput and chin/mastoid processes.
+  - Apply a gradual manual axial distraction force and assess for reduction or centralization of radicular arm symptoms.
+  positive: 'distraction: Sn 0.44 (0.21–0.67), Sp 0.90 (0.82–0.98) (Rubinstein 2007 / Wainner 2003 data).'
+  interpretation: Low–moderate Sn (0.44), high Sp (0.90) → positive symptom relief helps rule in cervical radiculopathy and is 1 of 5 items in the Raney cervical traction CPR.
+  metrics: 'Rubinstein 2007 Eur Spine J: traction/distraction low–moderate Sn, high Sp → rule in; distraction: Sn 0.44 (0.21–0.67), Sp 0.90 (0.82–0.98). Thoomes 2018 Spine J: combine Spurling + axial traction + arm squeeze to rule in.'
+  evidence: M
+  sources:
+  - text: Rubinstein 2007 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2200707/
+    free_full_text: true
+  - text: Thoomes 2018 Spine J
+    url: https://doi.org/10.1016/j.spinee.2017.08.241
+    free_full_text: false
+  review_status: approved
+- id: ultt-a
+  type: test
+  title: Upper Limb Tension Test A (ULTT A / Median Nerve Bias)
+  page: 4
+  video_url: https://www.youtube.com/watch?v=rir6x6Iiqc4
+  video_title: All Upper Limb Tension Tests | ULTT | ULNT
+  summary: Upper-limb neurodynamic test (median nerve / C5–C7 bias) with high sensitivity to rule out cervical radiculopathy.
+  steps:
+  - With the patient supine, sequentially apply scapular depression, shoulder abduction, forearm supination, wrist and finger extension, shoulder external rotation, and elbow extension.
+  - Perform structural differentiation via contralateral or ipsilateral cervical lateral flexion.
+  - 'To rule out radiculopathy: ULTT A is most useful alone (Wainner 2003 / Rubinstein 2007), or use 4 negative neurodynamic tests + negative arm squeeze to rule out (Thoomes 2018).'
+  positive: 'ULTT A: Sn 0.97 (0.90–1.0), Sp 0.22 (0.12–0.33) (Rubinstein 2007 / Wainner 2003 data); ULTT high Sn, low Sp → negative rules out.'
+  interpretation: High sensitivity (Sn 0.97, 0.90–1.0) and low specificity (Sp 0.22, 0.12–0.33) make a negative ULTT A the most useful single test to rule out cervical radiculopathy.
+  metrics: 'Rubinstein 2007 Eur Spine J: ULTT high Sn, low Sp → negative rules out; ULTT A: Sn 0.97 (0.90–1.0), Sp 0.22 (0.12–0.33). Wainner 2003 Spine: ULTT A most useful to rule out. Thoomes 2018 Spine J: 4 negative neurodynamic tests + negative arm squeeze to rule out.'
+  evidence: M
+  sources:
+  - text: Rubinstein 2007 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2200707/
+    free_full_text: true
+  - text: Wainner 2003 Spine
+    url: https://doi.org/10.1097/00007632-200301010-00014
+    free_full_text: false
+  - text: Thoomes 2018 Spine J
+    url: https://doi.org/10.1016/j.spinee.2017.08.241
+    free_full_text: false
+  review_status: approved
+- id: shoulder-abduction-sign
+  type: test
+  title: Shoulder Abduction Sign (Bakody's Sign)
+  page: 4
+  video_url: https://www.youtube.com/watch?v=8_AHkiiPYS8
+  video_title: Shoulder Abduction Sign | Cervical Nerve Root Pathology
+  summary: Symptom-relief test in which placing the ipsilateral hand on top of the head reduces radicular arm pain.
+  steps:
+  - Instruct the seated patient to lift the symptomatic arm and rest the hand or forearm on top of the head.
+  - Observe for reduction or relief of distal radicular arm pain or paresthesia.
+  positive: 'shoulder abduction: Sn 0.17 (0.0–0.34), Sp 0.92 (0.85–0.99); low–moderate Sn, moderate–high Sp.'
+  interpretation: High specificity (Sp 0.92, 0.85–0.99) but very low sensitivity (Sn 0.17, 0.0–0.34); also 1 of 5 items in the Raney cervical traction CPR.
+  metrics: 'Rubinstein 2007 Eur Spine J (Wainner 2003 data): shoulder abduction test low–moderate Sn, moderate–high Sp; Sn 0.17 (0.0–0.34), Sp 0.92 (0.85–0.99).'
+  evidence: M
+  sources:
+  - text: Rubinstein 2007 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2200707/
+    free_full_text: true
+  review_status: approved
+- id: valsalva-test
+  type: test
+  title: Valsalva Manoeuvre
+  page: 4
+  summary: Intrathecal pressure provocation test for cervical radiculopathy.
+  steps:
+  - Instruct the seated patient to take a breath and bear down against a closed glottis.
+  - Record whether radicular upper-extremity pain or paresthesia is reproduced.
+  positive: 'Valsalva: Sn 0.22 (0.03–0.41), Sp 0.94 (0.88–1.0); low–moderate Sn, high Sp → rule in.'
+  interpretation: High specificity (Sp 0.94, 0.88–1.0) helps rule in cervical radiculopathy when positive, whereas low sensitivity (Sn 0.22, 0.03–0.41) cannot rule it out.
+  metrics: 'Rubinstein 2007 Eur Spine J (Wainner 2003 data): Valsalva low–moderate Sn, high Sp → rule in; Sn 0.22 (0.03–0.41), Sp 0.94 (0.88–1.0).'
+  evidence: M
+  sources:
+  - text: Rubinstein 2007 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2200707/
+    free_full_text: true
+  review_status: approved
+- id: arm-squeeze-test
+  type: test
+  title: Arm Squeeze Test
+  page: 4
+  summary: Middle-third upper-arm compression test used in combination with provocative and neurodynamic tests for cervical radiculopathy.
+  steps:
+  - Squeeze the middle third of the patient's upper arm (over the biceps/triceps brachial neurovascular bundle) and compare pain provocation with acromioclavicular/deltoid control sites.
+  - 'Rule-in combination (Thoomes 2018): combine Spurling + axial traction + arm squeeze to rule in.'
+  - 'Rule-out combination (Thoomes 2018): 4 negative neurodynamic tests + negative arm squeeze to rule out.'
+  positive: combine Spurling + axial traction + arm squeeze to rule in; 4 negative neurodynamic tests + negative arm squeeze to rule out.
+  interpretation: Use in combination with Spurling and axial traction to rule in, or with 4 negative neurodynamic tests to rule out cervical radiculopathy (Thoomes 2018).
+  metrics: 'Arm squeeze test: used only in the Thoomes combinations (E). Thoomes 2018 Spine J (M): combine Spurling + axial traction + arm squeeze to rule in; 4 negative neurodynamic tests + negative arm squeeze to rule out.'
+  evidence: E
+  sources:
+  - text: Thoomes 2018 Spine J
+    url: https://doi.org/10.1016/j.spinee.2017.08.241
+    free_full_text: false
+  review_status: approved
+- id: cleland-thoracic-manip-cpr
+  type: test
+  title: Thoracic Manipulation CPR (Cleland 2007 & Cleland 2010 Trial)
+  page: 4
+  video_url: https://www.youtube.com/watch?v=FsTE3czv98A
+  video_title: Thoracic Spine Manipulation Clinical Prediction Rule
+  summary: Clinical prediction rule derivation (Cleland 2007) and randomised validation trial (Cleland 2010) for thoracic spine manipulation in mechanical neck pain.
+  steps:
+  - 'Derivation (Cleland 2007): ≥ 3 of 6 variables: LR+ 5.5; success 54% → 86% (items: see original paper).'
+  - 'Validation RCT (Cleland 2010): CPR NOT validated; however, thoracic manipulation + exercise > exercise alone for disability (all follow-ups) and pain at 1 week.'
+  positive: '≥ 3 of 6 variables: LR+ 5.5; success 54% → 86% (items: see original paper). CPR NOT validated (Cleland 2010).'
+  interpretation: 'Although the 6-variable CPR (items: see original paper) was NOT validated in the 2010 RCT, thoracic manipulation combined with exercise was superior to exercise alone for disability at all follow-ups and pain at 1 week.'
+  metrics: 'Cleland 2007 Phys Ther (L): ≥ 3 of 6 variables: LR+ 5.5; success 54% → 86% (items: see original paper). Cleland 2010 Phys Ther (M): CPR NOT validated; but thoracic manipulation + exercise > exercise alone for disability (all follow-ups) and pain at 1 week.'
+  evidence: L
+  sources:
+  - text: Cleland 2007 Phys Ther
+    url: https://doi.org/10.2522/ptj.20060155
+    free_full_text: false
+  - text: Cleland 2010 Phys Ther
+    url: https://doi.org/10.2522/ptj.20100123
+    free_full_text: false
+  review_status: approved
+- id: raney-traction-cpr
+  type: test
+  title: Cervical Traction Clinical Prediction Rule (Raney 2009)
+  page: 4
+  summary: Five-item clinical prediction rule (not validated) identifying neck pain patients likely to benefit from intermittent mechanical cervical traction + exercise.
+  steps:
+  - 1. Peripheralisation with C4–7 mobility testing.
+  - 2. + Shoulder abduction test.
+  - 3. Age ≥ 55.
+  - 4. + ULTT A.
+  - 5. + Distraction test.
+  positive: '5 items: peripheralisation with C4–7 mobility testing, + shoulder abduction test, age ≥ 55, + ULTT A, + distraction test. ≥ 3/5: LR+ 4.81 (2.17–11.4), success 44% → 79.2%; ≥ 4/5: LR+ 23.1 (2.5–227.9) → 94.8% (not validated).'
+  interpretation: 'When ≥ 3/5 items are present, post-test probability of success increases from 44% to 79.2% (LR+ 4.81); when ≥ 4/5 are present, post-test probability reaches 94.8% (LR+ 23.1). Note: not validated.'
+  metrics: 'Raney 2009 Eur Spine J: 5 items: peripheralisation with C4–7 mobility testing, + shoulder abduction test, age ≥ 55, + ULTT A, + distraction test. ≥ 3/5: LR+ 4.81 (2.17–11.4), success 44% → 79.2%; ≥ 4/5: LR+ 23.1 (2.5–227.9) → 94.8% (not validated).'
+  evidence: L
+  calculator:
+    kind: formula
+    decimals: 0
+    value_label: Positive items (of 5) · Not validated (Raney 2009)
+    expr: c1 + c2 + c3 + c4 + c5
+    inputs:
+    - heading: Raney 2009 cervical traction CPR (5 items — not validated)
+    - key: c1
+      type: check
+      label: 1. Peripheralisation with C4–7 mobility testing
+    - key: c2
+      type: check
+      label: 2. + Shoulder abduction test
+    - key: c3
+      type: check
+      label: 3. Age ≥ 55
+    - key: c4
+      type: check
+      label: 4. + ULTT A
+    - key: c5
+      type: check
+      label: 5. + Distraction test
+    outputs:
+    - when: v >= 4
+      text: '≥ 4/5 positive: LR+ 23.1 (2.5–227.9), success 44% → 94.8% (not validated)'
+      tone: good
+    - when: v == 3
+      text: '≥ 3/5 positive: LR+ 4.81 (2.17–11.4), success 44% → 79.2% (not validated)'
+      tone: good
+    - when: v < 3
+      text: '< 3/5 positive: below ≥ 3/5 threshold (pre-test success 44%; not validated)'
+      tone: warn
+  sources:
+  - text: Raney 2009 Eur Spine J
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2899424/
+    free_full_text: true
+  review_status: approved
+- id: ndi
+  type: info
+  title: Neck Disability Index (NDI)
+  page: 4
+  summary: 10-section condition-specific self-report questionnaire measuring neck-related disability (0–50 raw points or 0–100%).
+  steps:
+  - '10 sections, each scored 0–5: pain intensity, personal care, lifting, reading, headaches, concentration, work, driving, sleeping, recreation.'
+  - 'Total 0–50; % = total × 2. If sections are unanswered: % = total / (5 × answered) × 100, with at least 8 answered.'
+  - Compare change against population-specific MDC and MCID thresholds (mechanical neck pain vs cervical radiculopathy).
+  positive: 'Mechanical neck pain (Cleland 2008): NDI ICC 0.50, MCID 19 percentage points · Radiculopathy (Young 2010): MDC 13.4, MCID 8.5 · Systematic review (MacDermid 2009): ICC 0.50–0.98; MDC ≈ 5/50 uncomplicated neck pain, up to 10/50 radiculopathy.'
+  interpretation: 'In mechanical neck pain, MCID is 19 percentage points (Cleland 2008) and MDC is ≈ 5/50 (MacDermid 2009). In cervical radiculopathy, MDC is 13.4 and MCID is 8.5 (Young 2010), with MDC up to 10/50 (MacDermid 2009). In acute whiplash, baseline NDI > 14.5/50 predicts poorer outcome (Walton 2013). Note: the Young 2010 abstract does not state whether its NDI thresholds are on the 0–50 or 0–100% scale — check the original before applying them to the % score.'
+  metrics: 'Cleland 2008 Arch Phys Med Rehabil (mechanical neck pain): NDI ICC 0.50; MCID NDI 19 percentage points. Young 2010 Am J Phys Med Rehabil (radiculopathy): MDC NDI 13.4; MCID NDI 8.5. MacDermid 2009 JOSPT (SR): ICC 0.50–0.98; MDC ≈ 5/50 uncomplicated neck pain, up to 10/50 radiculopathy.'
+  evidence: M
+  calculator:
+    kind: formula
+    decimals: 1
+    value_label: NDI % score (0–100%; ≥ 8 of 10 sections required) · Mechanical MCID 19% (Cleland 2008) · Radiculopathy MDC 13.4, MCID 8.5 (Young 2010)
+    expr: '([s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).length >= 8 ? ([s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).reduce((a,b)=>a+b,0) / (5 * [s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).length)) * 100 : NaN)'
+    inputs:
+    - heading: Neck Disability Index — 10 sections (0–5 each; at least 8 answered)
+    - key: s1
+      type: select
+      label: 1. Pain intensity
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · No pain at the moment
+      - - '1'
+        - 1 · Very mild pain
+      - - '2'
+        - 2 · Moderate pain
+      - - '3'
+        - 3 · Fairly severe pain
+      - - '4'
+        - 4 · Very severe pain
+      - - '5'
+        - 5 · Worst imaginable pain
+    - key: s2
+      type: select
+      label: 2. Personal care (washing, dressing, etc.)
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Normal, no extra pain
+      - - '1'
+        - 1 · Normal, causes extra pain
+      - - '2'
+        - 2 · Painful, slow and careful
+      - - '3'
+        - 3 · Need some help, manage most
+      - - '4'
+        - 4 · Need help every day in most
+      - - '5'
+        - 5 · Cannot dress, wash with difficulty
+    - key: s3
+      type: select
+      label: 3. Lifting
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Heavy weights without extra pain
+      - - '1'
+        - 1 · Heavy weights give extra pain
+      - - '2'
+        - 2 · Pain prevents heavy weights off floor
+      - - '3'
+        - 3 · Manage light to medium weights if positioned
+      - - '4'
+        - 4 · Only very light weights
+      - - '5'
+        - 5 · Cannot lift or carry anything
+    - key: s4
+      type: select
+      label: 4. Reading
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Read as much as I want, no pain
+      - - '1'
+        - 1 · Slight pain in neck
+      - - '2'
+        - 2 · Moderate pain in neck
+      - - '3'
+        - 3 · Cannot read as much, moderate pain
+      - - '4'
+        - 4 · Hardly read at all, severe pain
+      - - '5'
+        - 5 · Cannot read at all
+    - key: s5
+      type: select
+      label: 5. Headaches
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · No headaches at all
+      - - '1'
+        - 1 · Slight headaches, infreq.
+      - - '2'
+        - 2 · Moderate headaches, infreq.
+      - - '3'
+        - 3 · Moderate headaches, frequent
+      - - '4'
+        - 4 · Severe headaches, frequent
+      - - '5'
+        - 5 · Headaches almost all the time
+    - key: s6
+      type: select
+      label: 6. Concentration
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Concentrate fully, no difficulty
+      - - '1'
+        - 1 · Slight difficulty
+      - - '2'
+        - 2 · Fair degree of difficulty
+      - - '3'
+        - 3 · A lot of difficulty
+      - - '4'
+        - 4 · Great deal of difficulty
+      - - '5'
+        - 5 · Cannot concentrate at all
+    - key: s7
+      type: select
+      label: 7. Work
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Do as much work as I want
+      - - '1'
+        - 1 · Only usual work, no more
+      - - '2'
+        - 2 · Most of usual work, no more
+      - - '3'
+        - 3 · Cannot do usual work
+      - - '4'
+        - 4 · Hardly do any work at all
+      - - '5'
+        - 5 · Cannot do any work at all
+    - key: s8
+      type: select
+      label: 8. Driving
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · Drive without any neck pain
+      - - '1'
+        - 1 · Drive as long as I want, slight pain
+      - - '2'
+        - 2 · Drive as long as I want, moderate pain
+      - - '3'
+        - 3 · Cannot drive as long, moderate pain
+      - - '4'
+        - 4 · Hardly drive at all, severe pain
+      - - '5'
+        - 5 · Cannot drive my car at all
+    - key: s9
+      type: select
+      label: 9. Sleeping
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · No trouble sleeping
+      - - '1'
+        - 1 · Mildly disturbed (< 1 h sleepless)
+      - - '2'
+        - 2 · Moderately disturbed (1–2 h sleepless)
+      - - '3'
+        - 3 · Moderately disturbed (2–3 h sleepless)
+      - - '4'
+        - 4 · Greatly disturbed (3–5 h sleepless)
+      - - '5'
+        - 5 · Completely disturbed (5–7 h sleepless)
+    - key: s10
+      type: select
+      label: 10. Recreation
+      options:
+      - - ''
+        - — select —
+      - - '0'
+        - 0 · All recreation, no neck pain
+      - - '1'
+        - 1 · All recreation, some pain
+      - - '2'
+        - 2 · Most, but not all, because of pain
+      - - '3'
+        - 3 · Only a few because of pain
+      - - '4'
+        - 4 · Hardly any because of pain
+      - - '5'
+        - 5 · Cannot do any recreation at all
+    outputs:
+    - when: isFinite(v)
+      text: 'Raw total: {[s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).reduce((a,b)=>a+b,0)|0} / {5*[s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).length|0} ({[s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).length|0}/10 answered) · NDI % = {v|1}% · Mechanical neck pain: MCID 19 percentage points (Cleland 2008); uncomplicated MDC ≈ 5/50 (MacDermid 2009). Radiculopathy: MDC 13.4, MCID 8.5 (Young 2010); MDC up to 10/50 (MacDermid 2009).'
+      tone: good
+    - when: '!isFinite(v)'
+      text: Answered {[s1,s2,s3,s4,s5,s6,s7,s8,s9,s10].filter(Number.isFinite).length|0}/10 sections (at least 8 answered required; % = total × 2 when all 10 answered, or total / (5 × answered) × 100 when 8–9 answered).
+      tone: warn
+  sources:
+  - text: Cleland 2008 Arch Phys Med Rehabil
+    url: https://doi.org/10.1016/j.apmr.2007.08.126
+    free_full_text: false
+  - text: Young 2010 Am J Phys Med Rehabil
+    url: https://doi.org/10.1097/PHM.0b013e3181ec98e6
+    free_full_text: false
+  - text: MacDermid 2009 JOSPT
+    url: https://doi.org/10.2519/jospt.2009.2930
+    free_full_text: false
+  review_status: approved
+- id: psfs
+  type: info
+  title: Patient-Specific Functional Scale (PSFS)
+  page: 4
+  summary: Patient-nominated activity limitation scale (0–10 per activity; average of 0–10 items).
+  steps:
+  - Ask the patient to identify up to 3 important activities they are unable to perform or are having difficulty with because of their neck problem.
+  - Rate each activity from 0 (unable to perform) to 10 (able to perform at prior level) and average the items.
+  positive: 'Radiculopathy (Young 2010): MDC PSFS 3.3, MCID PSFS 2.2.'
+  interpretation: In cervical radiculopathy (Young 2010), MDC is 3.3 points and MCID is 2.2 points on the 0–10 scale.
+  metrics: 'Young 2010 Am J Phys Med Rehabil (radiculopathy): MDC: PSFS 3.3; MCID: PSFS 2.2.'
+  evidence: M
+  calculator:
+    kind: scale
+    items: 3
+    min: 0
+    max: 10
+    step: 1
+    aggregate: mean
+    decimals: 1
+    note: Rate each patient-nominated activity from 0 (unable to perform) to 10 (able to perform at prior level).
+    item_labels:
+    - Activity 1 (0 = unable, 10 = prior level)
+    - Activity 2 (0 = unable, 10 = prior level)
+    - Activity 3 (0 = unable, 10 = prior level)
+    value_label: PSFS mean score (0–10) · Radiculopathy MDC 3.3, MCID 2.2 (Young 2010)
+  sources:
+  - text: Young 2010 Am J Phys Med Rehabil
+    url: https://doi.org/10.1097/PHM.0b013e3181ec98e6
+    free_full_text: false
+  review_status: approved
+- id: nprs
+  type: info
+  title: Numeric Pain Rating Scale (NPRS)
+  page: 4
+  summary: 11-point (0–10) numeric pain intensity scale for mechanical neck pain and cervical radiculopathy.
+  steps:
+  - Ask the patient to rate pain intensity from 0 (no pain) to 10 (worst imaginable pain) for current, best, and worst pain over the past 24 hours.
+  - 'Compare change against population-specific thresholds: mechanical neck pain MCID 1.3 (Cleland 2008); cervical radiculopathy MDC 4.1, MCID 2.2 (Young 2010).'
+  positive: 'Mechanical neck pain (Cleland 2008): NPRS ICC 0.76, MCID 1.3 · Radiculopathy (Young 2010): MDC 4.1, MCID 2.2.'
+  interpretation: In mechanical neck pain, ICC is 0.76 and MCID is 1.3 points (Cleland 2008). In cervical radiculopathy, MDC is 4.1 and MCID is 2.2 points (Young 2010). In acute whiplash, baseline pain > 5.5/10 predicts poorer outcome (Walton 2013).
+  metrics: 'Cleland 2008 Arch Phys Med Rehabil (mechanical neck pain): NPRS ICC 0.76; MCID NPRS 1.3. Young 2010 Am J Phys Med Rehabil (radiculopathy): MDC NPRS 4.1; MCID NPRS 2.2.'
+  evidence: M
+  calculator:
+    kind: scale
+    items: 3
+    min: 0
+    max: 10
+    step: 1
+    aggregate: mean
+    decimals: 1
+    note: Rate current, best, and worst pain in the last 24 hours from 0 (no pain) to 10 (worst imaginable pain).
+    item_labels:
+    - Current pain (0–10)
+    - Best pain in last 24 hours (0–10)
+    - Worst pain in last 24 hours (0–10)
+    value_label: NPRS score (0–10) · Mechanical MCID 1.3 (Cleland 2008) · Radiculopathy MDC 4.1, MCID 2.2 (Young 2010)
+  sources:
+  - text: Cleland 2008 Arch Phys Med Rehabil
+    url: https://doi.org/10.1016/j.apmr.2007.08.126
+    free_full_text: false
+  - text: Young 2010 Am J Phys Med Rehabil
+    url: https://doi.org/10.1097/PHM.0b013e3181ec98e6
+    free_full_text: false
+  review_status: approved
+- id: wdq-tsk11-neck
+  type: info
+  title: Whiplash Disability Questionnaire (WDQ) & TSK-11 (Neck)
+  page: 4
+  summary: Condition-specific whiplash disability and kinesiophobia / fear-of-movement self-report instruments.
+  steps:
+  - 'Whiplash Disability Questionnaire (WDQ) and Tampa Scale for Kinesiophobia (TSK-11, neck): listed for tracking; no MCID used on this sheet.'
+  - 'CPG outcome measures recommendation: "Clinicians should use validated self-report questionnaires … to identify a patient''s baseline status and to monitor changes relative to pain, function, disability, and psychosocial functioning."'
+  positive: listed for tracking; no MCID used on this sheet.
+  interpretation: Use alongside NDI, PSFS, and NPRS to monitor WAD-specific disability and fear of movement.
+  metrics: 'Whiplash Disability Questionnaire, TSK-11 (neck): listed for tracking; no MCID used on this sheet (E).'
+  evidence: E
+  sources:
+  - text: Blanpied 2017 JOSPT
+    url: https://doi.org/10.2519/jospt.2017.0302
+    free_full_text: false
+  review_status: approved
+- id: acdf-vs-physio-engquist-peolsson
+  type: info
+  title: ACDF + Physiotherapy vs Physiotherapy Alone (Engquist 2013/2017, Peolsson 2013)
+  page: 5
+  summary: Randomised controlled trial comparing anterior cervical decompression and fusion (ACDF) plus structured physiotherapy vs structured physiotherapy alone for cervical radiculopathy at 2 years and 5–8 years.
+  steps:
+  - '2-year clinical outcomes (Engquist 2013): more rapid improvement in first year; "better/much better" 87% vs 62% at 12 months (P < 0.05), 81% vs 69% at 24 months (P = 0.28); NDI not different (P = 0.23); both groups improved.'
+  - 'Physical function (Peolsson 2013): no difference in neck ROM, neck muscle endurance or hand function; "a structured physiotherapy program should precede a decision for ACDF".'
+  - '5–8 year follow-up (Engquist 2017): NDI reduced 21% (surgery) vs 11% (physio), p = 0.03; neck pain −39 mm vs −19 mm; arm pain no significant difference; "better/much better" 93% vs 62%.'
+  positive: '"a structured physiotherapy program should precede a decision for ACDF" (Peolsson 2013).'
+  interpretation: Because both groups improve and physical function / arm pain do not differ significantly, “a structured physiotherapy program should precede a decision for ACDF” (Peolsson 2013).
+  metrics: 'Engquist 2013 Spine: "better/much better" 87% vs 62% at 12 months (P < 0.05), 81% vs 69% at 24 months (P = 0.28); NDI not different (P = 0.23). Peolsson 2013 Spine: no difference in neck ROM, neck muscle endurance or hand function; "a structured physiotherapy program should precede a decision for ACDF". Engquist 2017 J Neurosurg Spine (5–8 years): NDI reduced 21% (surgery) vs 11% (physio), p = 0.03; neck pain −39 mm vs −19 mm; arm pain no significant difference; "better/much better" 93% vs 62%.'
+  evidence: H
+  sources:
+  - text: Engquist 2013 Spine
+    url: https://doi.org/10.1097/BRS.0b013e31829ff095
+    free_full_text: false
+  - text: Peolsson 2013 Spine
+    url: https://doi.org/10.1097/BRS.0b013e31826d2cbb
+    free_full_text: false
+  - text: Engquist 2017 J Neurosurg Spine
+    url: https://doi.org/10.3171/2016.6.SPINE151427
+    free_full_text: false
+  review_status: approved
+- id: postop-physio-acdf-wibault
+  type: info
+  title: Structured Post-Op Physiotherapy After ACDF (Wibault 2018)
+  page: 5
+  summary: Randomised trial of structured post-operative neck-specific physiotherapy vs standard post-operative care after ACDF for cervical radiculopathy.
+  steps:
+  - POST-OP RESTRICTIONS ARE SURGEON-DIRECTED.
+  - 'Wibault 2018 RCT: structured post-op physiotherapy after ACDF showed only minor additional benefit at 6 months (expectation fulfilment); 61% of standard-care patients sought extra physiotherapy.'
+  positive: only minor additional benefit at 6 months (expectation fulfilment); 61% of standard-care patients sought extra physiotherapy.
+  interpretation: Most standard-care patients (61%) sought additional physiotherapy after ACDF, and structured post-operative physiotherapy improved expectation fulfilment at 6 months.
+  metrics: 'Wibault 2018 J Neurosurg Spine: only minor additional benefit at 6 months (expectation fulfilment); 61% of standard-care patients sought extra physiotherapy.'
+  evidence: M
+  sources:
+  - text: Wibault 2018 J Neurosurg Spine
+    url: https://doi.org/10.3171/2017.5.SPINE16736
+    free_full_text: false
+  review_status: approved
+- id: cda-vs-acdf-wang
+  type: info
+  title: Cervical Disc Arthroplasty (CDA) vs ACDF (Wang 2020 Meta-Analysis)
+  page: 5
+  summary: Meta-analysis of long-term outcomes comparing cervical disc arthroplasty (CDA) and ACDF across 11 RCTs (3,505 patients).
+  steps:
+  - CDA achieved higher overall success (2.10, 1.70–2.59) compared with ACDF.
+  - CDA had lower symptomatic adjacent-segment disease (0.46, 0.34–0.63) and lower secondary surgery (0.50, 0.29–0.87).
+  - POST-OP RESTRICTIONS ARE SURGEON-DIRECTED.
+  positive: CDA higher overall success (2.10, 1.70–2.59); lower symptomatic adjacent-segment disease (0.46, 0.34–0.63) and secondary surgery (0.50, 0.29–0.87).
+  interpretation: Across 11 RCTs (3,505 patients), CDA demonstrated higher overall success and lower rates of symptomatic adjacent-segment disease and secondary surgery than ACDF.
+  metrics: 'Wang 2020 Orthop Surg (MA, 11 RCTs, 3,505 patients): CDA higher overall success (2.10, 1.70–2.59); lower symptomatic adjacent-segment disease (0.46, 0.34–0.63) and secondary surgery (0.50, 0.29–0.87).'
+  evidence: M
+  sources:
+  - text: Wang 2020 Orthop Surg
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7031601/
+    free_full_text: true
+  review_status: approved
+- id: dysphagia-after-acdf-xue
+  type: info
+  title: Dysphagia After ACDF & Post-Op Red-Flag Re-Check (Xue 2022)
+  page: 5
+  summary: Risk factors and resolution timeline for dysphagia after Zero-P ACDF (n = 260) and mandatory post-operative safety re-check.
+  steps:
+  - 'Risk factors for dysphagia after ACDF (Zero-P cohort, n = 260): more operated levels, longer operation time, larger dC2–7 angle change and dPSTT.'
+  - 'Resolution of dysphagia cases: 37.1% resolved by 3 months, 38.6% by 6 months, 17.1% by 12 months.'
+  - 'Post-op re-check (E): swallowing / airway, voice, new arm weakness, wound, neuro change → contact surgeon.'
+  positive: 'risk factors: more operated levels, longer operation time, larger dC2–7 angle change and dPSTT; of dysphagia cases 37.1% resolved by 3 months, 38.6% by 6 months, 17.1% by 12 months.'
+  interpretation: Screen every post-operative visit for airway/swallowing compromise, voice change, new arm weakness, wound signs, or neurological deterioration and contact the surgeon immediately if present.
+  metrics: 'Xue 2022 Orthop Surg (Zero-P cohort, n = 260): risk factors: more operated levels, longer operation time, larger dC2–7 angle change and dPSTT; of dysphagia cases 37.1% resolved by 3 months, 38.6% by 6 months, 17.1% by 12 months.'
+  evidence: L
+  sources:
+  - text: Xue 2022 Orthop Surg
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8755882/
+    free_full_text: true
+  review_status: approved
+- id: collar-physio-kuijper
+  type: info
+  title: Semi-Hard Collar or Physiotherapy vs Wait-and-See in Recent Radiculopathy (Kuijper 2009)
+  page: 6
+  summary: Randomised controlled trial comparing semi-hard cervical collar + rest, 6 weeks physiotherapy + home exercise, and wait-and-see in recent-onset cervical radiculopathy.
+  steps:
+  - Collar + rest or 6 weeks physio + home exercise gave extra arm-pain reduction of 12 mm vs wait-and-see at 6 weeks.
+  - 'Neck pain reduction at 6 weeks: −17 mm (collar) and −14 mm (physio) vs wait-and-see.'
+  - 'JOSPT CPG acute radiating pain: "may provide mobilizing and stabilizing exercises, laser, and short-term use of a cervical collar"; OPTIMa: do not offer collar in NAD grades I–III.'
+  positive: 'collar + rest or 6 weeks physio + home exercise: extra arm-pain reduction 12 mm vs wait-and-see at 6 weeks; neck pain −17 mm (collar), −14 mm (physio).'
+  interpretation: In acute cervical radiculopathy, both 6 weeks of physiotherapy + home exercise and short-term collar + rest reduce arm and neck pain faster than wait-and-see over the first 6 weeks.
+  metrics: 'Kuijper 2009 BMJ: collar + rest or 6 weeks physio + home exercise: extra arm-pain reduction 12 mm vs wait-and-see at 6 weeks; neck pain −17 mm (collar), −14 mm (physio).'
+  evidence: H
+  sources:
+  - text: Kuijper 2009 BMJ
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2758937/
+    free_full_text: true
+  review_status: approved
+- id: cervical-traction-evidence
+  type: info
+  title: Mechanical Cervical Traction + Exercise Evidence (Graham 2008, Fritz 2014, Romeo 2018)
+  page: 6
+  summary: Cochrane review, randomised trial, and meta-analysis of mechanical cervical traction combined with exercise/physiotherapy for cervical radiculopathy.
+  steps:
+  - 'Graham 2008 Cochrane: no low-risk-of-bias evidence that clearly supports or refutes continuous or intermittent traction.'
+  - 'Fritz 2014 RCT (radiculopathy): NDI lower at 6 months with mechanical traction vs exercise alone (MD 13.3, 5.6–21.0) and vs over-door traction (8.1, 0.8–15.3); at 12 months vs exercise (9.8, 0.2–19.4).'
+  - 'Romeo 2018 MA (traction + PT): mechanical traction: pain g −0.85 (−1.63 to −0.06) short term, −1.17 (−2.25 to −0.10) intermediate; disability g −1.05 (−1.81 to −0.28) intermediate.'
+  - 'JOSPT CPG chronic radiating pain: "should provide mechanical intermittent cervical traction, combined with other interventions such as stretching and strengthening exercise plus cervical and thoracic mobilization/manipulation".'
+  positive: 'Fritz 2014: NDI MD 13.3 (5.6–21.0) at 6 months, 9.8 (0.2–19.4) at 12 months vs exercise alone · Romeo 2018: pain g −0.85 short term, −1.17 intermediate; disability g −1.05 intermediate.'
+  interpretation: Standalone traction lacks low-risk-of-bias support (Graham 2008), but mechanical traction combined with exercise/PT improves pain and disability in cervical radiculopathy (Fritz 2014, Romeo 2018, Blanpied 2017 CPG).
+  metrics: 'Graham 2008 Cochrane (M): no low-risk-of-bias evidence that clearly supports or refutes continuous or intermittent traction. Fritz 2014 JOSPT (M): NDI lower at 6 months with mechanical traction vs exercise alone (MD 13.3, 5.6–21.0) and vs over-door traction (8.1, 0.8–15.3); at 12 months vs exercise (9.8, 0.2–19.4). Romeo 2018 Phys Ther (M): mechanical traction: pain g −0.85 (−1.63 to −0.06) short term, −1.17 (−2.25 to −0.10) intermediate; disability g −1.05 (−1.81 to −0.28) intermediate.'
+  evidence: M
+  sources:
+  - text: Graham 2008 Cochrane
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13429286/
+    free_full_text: true
+  - text: Fritz 2014 JOSPT
+    url: https://doi.org/10.2519/jospt.2014.5065
+    free_full_text: false
+  - text: Romeo 2018 Phys Ther
+    url: https://doi.org/10.1093/physth/pzy001
+    free_full_text: false
+  review_status: approved
+- id: lllt-electrotherapy-neck
+  type: info
+  title: Low-Level Laser Therapy (Chow 2009) & Electrotherapy (Kroeling 2013 Cochrane)
+  page: 6
+  summary: Meta-analysis of low-level laser therapy (LLLT) and Cochrane systematic review of electrotherapy modalities for neck pain.
+  steps:
+  - 'Low-level laser (Chow 2009 Lancet, MA, 16 RCTs, 820 pts): acute: RR 1.69 (1.22–2.33); chronic: RR 4.05 (2.74–5.98); VAS −19.86 mm (10.04–29.68); follow-up 1–22 weeks −22.07 mm (17.42–26.72).'
+  - 'Electrotherapy (Kroeling 2013 Cochrane, 20 trials): very low quality; TENS inconsistent; galvanic current, iontophoresis, EMS no better than placebo.'
+  - 'JOSPT CPG: chronic mobility deficits may include "Dry needling, laser, or intermittent mechanical/manual traction" within a multimodal approach; WAD (low risk) and chronic WAD: may provide TENS.'
+  positive: 'Chow 2009 LLLT: acute RR 1.69 (1.22–2.33); chronic RR 4.05 (2.74–5.98); VAS −19.86 mm (10.04–29.68); follow-up 1–22 weeks −22.07 mm (17.42–26.72) · Kroeling 2013: very low quality; TENS inconsistent; galvanic current, iontophoresis, EMS no better than placebo.'
+  interpretation: Low-level laser reduced pain in acute and chronic neck pain in this meta-analysis (Chow 2009), whereas galvanic current, iontophoresis, and EMS are no better than placebo (Kroeling 2013).
+  metrics: 'Chow 2009 Lancet (M, 16 RCTs, 820 pts): acute: RR 1.69 (1.22–2.33); chronic: RR 4.05 (2.74–5.98); VAS −19.86 mm (10.04–29.68); follow-up 1–22 weeks −22.07 mm (17.42–26.72). Kroeling 2013 Cochrane (L, 20 trials): very low quality; TENS inconsistent; galvanic current, iontophoresis, EMS no better than placebo.'
+  evidence: M
+  sources:
+  - text: Chow 2009 Lancet
+    url: https://doi.org/10.1016/S0140-6736(09)61522-1
+    free_full_text: false
+  - text: Kroeling 2013 Cochrane
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10696490/
+    free_full_text: true
+  review_status: approved
+- id: optima-nad-guideline-cote
+  type: info
+  title: OPTIMa Clinical Practice Guideline for Neck Pain & Associated Disorders (Côté 2016)
+  page: 6
+  summary: Ontario Protocol for Traffic Injury Management (OPTIMa) guideline recommendations for Neck Pain and Associated Disorders (NAD grades I–III).
+  steps:
+  - 'Education (NAD grades I–III): "educate and reassure patients about the benign and self-limited nature of the typical course of NAD grades I-III and the importance of maintaining activity and movement".'
+  - 'Grades I–II ≤ 3 months: "should not offer … cervical collar, electroacupuncture, electrotherapy, or clinic-based heat".'
+  - 'Grades I–II > 3 months: may consider low-level laser; should not offer electrotherapy, shortwave diathermy, clinic-based heat.'
+  - 'Grade III ≤ 3 months: should not offer cervical collar, low-level laser or traction; grade III > 3 months: no collar.'
+  positive: 'grades I–II ≤ 3 months: "should not offer … cervical collar, electroacupuncture, electrotherapy, or clinic-based heat" · "educate and reassure patients about the benign and self-limited nature of the typical course of NAD grades I-III and the importance of maintaining activity and movement".'
+  interpretation: Prioritise active reassurance and movement maintenance across NAD grades I–III while avoiding passive electrotherapy, clinic-based heat, and collars.
+  metrics: 'Level: Guideline. Côté 2016 Eur Spine J (OPTIMa NAD grades I–III): passive modality restrictions and active reassurance quote.'
+  evidence: Guideline
+  sources:
+  - text: Côté 2016 Eur Spine J
+    url: https://doi.org/10.1007/s00586-016-4467-7
+    free_full_text: false
+  review_status: approved
+- id: cervical-manip-vs-mob-gross
+  type: info
+  title: Cervical Manipulation vs Mobilisation (Gross 2015 Cochrane)
+  page: 7
+  summary: Cochrane systematic review comparing cervical spine manipulation and mobilisation for neck pain.
+  steps:
+  - Manipulation and mobilisation produce similar results for every outcome.
+  - Because of rare but serious adverse events, research should focus on mobilisation.
+  - 'JOSPT CPG acute mobility deficits: "should provide thoracic manipulation, a program of neck ROM exercises, and scapulothoracic and upper extremity strengthening"; "may provide cervical manipulation and/or mobilization".'
+  positive: similar results for every outcome; because of rare but serious adverse events, research should focus on mobilisation.
+  interpretation: Manipulation and mobilisation gave similar results for every outcome; because serious adverse events after manipulation are rare but possible, the review authors favour mobilisation.
+  metrics: 'Gross 2015 Cochrane: similar results for every outcome; because of rare but serious adverse events, research should focus on mobilisation.'
+  evidence: M
+  sources:
+  - text: Gross 2015 Cochrane
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10883412/
+    free_full_text: true
+  review_status: approved
+- id: thoracic-manipulation-neck-pain
+  type: info
+  title: Thoracic Manipulation for Mechanical Neck Pain (Masaracchio 2019, Cross 2011)
+  page: 7
+  summary: Meta-analysis and systematic review of thoracic spine thrust manipulation for acute and subacute mechanical neck pain.
+  steps:
+  - 'Masaracchio 2019 MA: vs mobilisation: pain MD −13.63 (−21.79 to −5.46), disability −9.93 (−14.38 to −5.48); vs standard care: pain −13.21, disability −11.36 short term; vs cervical manipulation: no difference.'
+  - 'Cross 2011 SR: short-term improvement in acute/subacute mechanical neck pain; literature weak.'
+  - 'JOSPT CPG acute mobility deficits: "should provide thoracic manipulation, a program of neck ROM exercises, and scapulothoracic and upper extremity strengthening".'
+  positive: 'vs mobilisation: pain MD −13.63 (−21.79 to −5.46), disability −9.93 (−14.38 to −5.48); vs standard care: pain −13.21, disability −11.36 short term; vs cervical manipulation: no difference.'
+  interpretation: Short term, thoracic manipulation reduced pain and disability more than mobilisation or standard care; no difference was found versus cervical manipulation.
+  metrics: 'Masaracchio 2019 PLoS One (M): vs mobilisation: pain MD −13.63 (−21.79 to −5.46), disability −9.93 (−14.38 to −5.48); vs standard care: pain −13.21, disability −11.36 short term; vs cervical manipulation: no difference. Cross 2011 JOSPT (L): short-term improvement in acute/subacute mechanical neck pain; literature weak.'
+  evidence: M
+  sources:
+  - text: Masaracchio 2019 PLoS One
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6373960/
+    free_full_text: true
+  - text: Cross 2011 JOSPT
+    url: https://doi.org/10.2519/jospt.2011.3670
+    free_full_text: false
+  review_status: approved
+- id: c1-c2-self-snag-jull-headache
+  type: info
+  title: C1–C2 Self-SNAG (Hall 2007) & Manipulation + Exercise (Jull 2002) for Cervicogenic Headache
+  page: 7
+  summary: Randomised controlled trials of C1–C2 self-sustained natural apophyseal glide (self-SNAG) and manipulative therapy + low-load exercise for cervicogenic headache.
+  steps:
+  - 'C1–C2 self-SNAG RCT (Hall 2007): FRT range +15° vs +5° placebo; headache index 31 vs 51 at 4 weeks, 24 vs 44 at 12 months; overall reduction 54%.'
+  - 'Manipulation + exercise RCT (Jull 2002): both reduced headache frequency and intensity, maintained at 12 months; combined not significantly superior (10% more relieved).'
+  - 'JOSPT CPG chronic headache: "cervical or cervicothoracic manipulation or mobilizations combined with shoulder girdle and neck stretching, strengthening, and endurance exercise".'
+  positive: 'Hall 2007: FRT range +15° vs +5° placebo; headache index 31 vs 51 at 4 weeks, 24 vs 44 at 12 months; overall reduction 54% · Jull 2002: both reduced headache frequency and intensity, maintained at 12 months; combined not significantly superior (10% more relieved).'
+  interpretation: Both C1–C2 self-SNAG mobilisation and cervical manipulative therapy / deep neck flexor exercise produce sustained 12-month reductions in cervicogenic headache.
+  metrics: 'Hall 2007 JOSPT (M): FRT range +15° vs +5° placebo; headache index 31 vs 51 at 4 weeks, 24 vs 44 at 12 months; overall reduction 54%. Jull 2002 Spine (H): both reduced headache frequency and intensity, maintained at 12 months; combined not significantly superior (10% more relieved).'
+  evidence: M
+  sources:
+  - text: Hall 2007 JOSPT
+    url: https://doi.org/10.2519/jospt.2007.2379
+    free_full_text: false
+  - text: Jull 2002 Spine
+    url: https://doi.org/10.1097/00007632-200209010-00004
+    free_full_text: false
+  review_status: approved
+- id: dry-needling-neck-chen
+  type: info
+  title: Dry Needling vs Physical Modalities for Neck Pain (Chen 2025 Meta-Analysis)
+  page: 7
+  summary: Meta-analysis comparing dry needling against other physical therapy modalities for neck pain and disability.
+  steps:
+  - 'Chen 2025 MA vs physical modalities: no difference in pain (VAS MD −0.13 cm) or NDI.'
+  - 'JOSPT CPG chronic mobility deficits: "Dry needling, laser, or intermittent mechanical/manual traction" may be included within a multimodal approach.'
+  positive: no difference in pain (VAS MD −0.13 cm) or NDI.
+  interpretation: Dry needling showed no difference from physical modalities for pain (VAS MD −0.13 cm) or NDI; the JOSPT CPG lists it only within a multimodal approach.
+  metrics: 'Chen 2025 J Bodyw Mov Ther: no difference in pain (VAS MD −0.13 cm) or NDI.'
+  evidence: L
+  sources:
+  - text: Chen 2025 J Bodyw Mov Ther
+    url: https://doi.org/10.1016/j.jbmt.2025.08.015
+    free_full_text: false
+  review_status: approved
+- id: manual-therapy-adverse-events-safety
+  type: info
+  title: Manual Therapy Adverse Events & Vascular Safety (Carnes 2010, Swait & Finch 2017)
+  page: 7
+  summary: Incidence of minor, moderate, and serious adverse events after manual therapy and cervical manipulation, and IFOMPT vascular safety screening.
+  steps:
+  - 'Carnes 2010 SR: minor/moderate transient events ≈ 41% (17–68%) in cohorts, 22% (11.1–36.2%) in RCTs; major ≈ 0.13%.'
+  - 'Swait & Finch 2017 scoping review: 1 per 2 million manipulations to 13 per 10,000 patients; association (causality unclear) with cervical arterial stroke under 45 years.'
+  - 'IFOMPT International Framework (2023): vascular pathologies of the neck are rare but must be considered; recognised mainly through history-taking and adapted physical examination.'
+  positive: minor/moderate transient events ≈ 41% (17–68%) in cohorts, 22% (11.1–36.2%) in RCTs; major ≈ 0.13% · serious events 1 per 2 million manipulations to 13 per 10,000 patients; association (causality unclear) with cervical arterial stroke under 45 years.
+  interpretation: Obtain explicit informed consent discussing minor/moderate transient adverse events (22% in RCTs, ≈ 41% in cohorts), rare serious events, and mobilisation/exercise alternatives before manual therapy.
+  metrics: 'Carnes 2010 Man Ther (M): minor/moderate transient events ≈ 41% (17–68%) in cohorts, 22% (11.1–36.2%) in RCTs; major ≈ 0.13%. Swait & Finch 2017 Chiropr Man Therap (L): 1 per 2 million manipulations to 13 per 10,000 patients; association (causality unclear) with cervical arterial stroke under 45 years. Rushton 2023 JOSPT (Guideline): IFOMPT International Framework (2023).'
+  evidence: M
+  sources:
+  - text: Carnes 2010 Man Ther
+    url: https://doi.org/10.1016/j.math.2009.12.006
+    free_full_text: false
+  - text: Swait & Finch 2017 Chiropr Man Therap
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5719861/
+    free_full_text: true
+  - text: Rushton 2023 JOSPT
+    url: https://doi.org/10.2519/jospt.2022.11147
+    free_full_text: false
+  review_status: approved
+- id: exercise-neck-pain-cochrane-gross
+  type: info
+  title: Exercises for Mechanical Neck Disorders (Gross 2015 Cochrane Review)
+  page: 8
+  summary: Cochrane systematic review (27 trials) of specific strengthening, endurance, and stretching exercises for acute and chronic neck pain.
+  steps:
+  - 'Acute neck pain: no evidence from RCTs for exercise alone.'
+  - 'Chronic neck pain — cervico-scapulothoracic + upper-limb strengthening: pain SMD −0.71 (−1.33 to −0.10).'
+  - 'Chronic neck pain — combined strengthening + stretching: function SMD −0.45 (−0.72 to −0.18).'
+  - 'JOSPT CPG chronic radiating pain: "should provide education and counseling to encourage participation in occupational and exercise activities".'
+  positive: 'acute: no evidence; chronic: cervico-scapulothoracic + upper-limb strengthening — pain SMD −0.71 (−1.33 to −0.10); combined strengthening + stretching — function SMD −0.45 (−0.72 to −0.18).'
+  interpretation: In chronic mechanical neck disorders, combine cervico-scapulothoracic and upper-limb strengthening with stretching and craniocervical motor control exercises.
+  metrics: 'Gross 2015 Cochrane (27 trials): acute: no evidence; chronic: cervico-scapulothoracic + upper-limb strengthening — pain SMD −0.71 (−1.33 to −0.10); combined strengthening + stretching — function SMD −0.45 (−0.72 to −0.18).'
+  evidence: M
+  sources:
+  - text: Gross 2015 Cochrane
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9508492/
+    free_full_text: true
+  review_status: approved
+- id: whiplash-trials-mint-promise
+  type: info
+  title: Whiplash Landmark RCTs — MINT (Lamb 2013) & PROMISE (Michaleff 2014)
+  page: 8
+  summary: Pragmatic randomised controlled trials of active emergency-department / physiotherapy packages in acute whiplash (MINT) and comprehensive exercise vs advice in chronic whiplash (PROMISE).
+  steps:
+  - 'MINT (Lamb 2013 Lancet, acute whiplash, n = 3,851 + 599): active ED management: NDI difference 0.5 (−1.5 to 2.5) at 12 months — no benefit; physio package vs single advice: NDI −3.7 (−6.1 to −1.3) at 4 months only; not cost-effective.'
+  - 'PROMISE (Michaleff 2014 Lancet, chronic whiplash, n = 172): 12-week exercise programme = advice: pain difference 0.0 (−0.7 to 0.7) at 14 weeks, −0.1 (−0.8 to 0.6) at 12 months.'
+  - 'WAD acute CPG (Blanpied 2017): educate to return to normal activities as soon as possible, minimise collar use, postural and mobility exercises, reassure "recovery is expected to occur within the first 2 to 3 months".'
+  positive: 'MINT: active ED NDI difference 0.5 (−1.5 to 2.5) at 12 months; physio package vs single advice NDI −3.7 (−6.1 to −1.3) at 4 months only · PROMISE: pain difference 0.0 (−0.7 to 0.7) at 14 weeks, −0.1 (−0.8 to 0.6) at 12 months.'
+  interpretation: In both acute (MINT) and chronic (PROMISE) WAD, intensive multi-session physiotherapy/exercise packages were not superior to structured advice and reassurance over 12 months.
+  metrics: 'Lamb 2013 Lancet (MINT, n = 3,851 + 599): active ED management: NDI difference 0.5 (−1.5 to 2.5) at 12 months — no benefit; physio package vs single advice: NDI −3.7 (−6.1 to −1.3) at 4 months only; not cost-effective. Michaleff 2014 Lancet (PROMISE, n = 172): 12-week exercise programme = advice: pain difference 0.0 (−0.7 to 0.7) at 14 weeks, −0.1 (−0.8 to 0.6) at 12 months.'
+  evidence: H
+  sources:
+  - text: Lamb 2013 Lancet
+    url: https://doi.org/10.1016/S0140-6736(12)61304-X
+    free_full_text: false
+  - text: Michaleff 2014 Lancet
+    url: https://doi.org/10.1016/S0140-6736(14)60457-8
+    free_full_text: false
+  review_status: approved
+- id: cervical-tracking-flowsheet
+  type: info
+  title: Longitudinal Session-by-Session Tracking & Discharge Milestones
+  page: 9
+  summary: Serial outcome tracking across 12 visits comparing NDI, PSFS, and NPRS change scores against verified population-specific MDC and MCID thresholds.
+  steps:
+  - 'Mechanical neck pain (Cleland 2008): NDI ICC 0.50, NPRS ICC 0.76; MCID NDI 19 percentage points, NPRS 1.3.'
+  - 'Cervical radiculopathy (Young 2010): MDC: NDI 13.4, PSFS 3.3, NPRS 4.1; MCID: NDI 8.5, PSFS 2.2, NPRS 2.2.'
+  - 'NDI systematic review (MacDermid 2009): ICC 0.50–0.98; MDC ≈ 5/50 uncomplicated neck pain, up to 10/50 radiculopathy.'
+  positive: 'Mechanical neck pain: MCID NDI 19 percentage points, NPRS 1.3 (Cleland 2008) · Radiculopathy: MDC NDI 13.4, PSFS 3.3, NPRS 4.1; MCID NDI 8.5, PSFS 2.2, NPRS 2.2 (Young 2010) · NDI SR: MDC ≈ 5/50 uncomplicated neck pain, up to 10/50 radiculopathy (MacDermid 2009).'
+  interpretation: Always interpret NDI, PSFS, and NPRS change scores against the MCID/MDC for the patient's specific clinical population (mechanical neck pain vs cervical radiculopathy).
+  metrics: 'Cleland 2008 Arch Phys Med Rehabil: NDI ICC 0.50, NPRS ICC 0.76; MCID NDI 19 percentage points, NPRS 1.3. Young 2010 Am J Phys Med Rehabil: MDC: NDI 13.4, PSFS 3.3, NPRS 4.1; MCID: NDI 8.5, PSFS 2.2, NPRS 2.2. MacDermid 2009 JOSPT: ICC 0.50–0.98; MDC ≈ 5/50 uncomplicated neck pain, up to 10/50 radiculopathy.'
+  evidence: M
+  sources:
+  - text: Cleland 2008 Arch Phys Med Rehabil
+    url: https://doi.org/10.1016/j.apmr.2007.08.126
+    free_full_text: false
+  - text: Young 2010 Am J Phys Med Rehabil
+    url: https://doi.org/10.1097/PHM.0b013e3181ec98e6
+    free_full_text: false
+  - text: MacDermid 2009 JOSPT
+    url: https://doi.org/10.2519/jospt.2009.2930
+    free_full_text: false
+  review_status: approved
