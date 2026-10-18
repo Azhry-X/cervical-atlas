@@ -14,8 +14,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'atlas'))
 from config import ATLAS_BASE_URL  # noqa: E402
 
-PAGE_NAMES = {1: 'Triage & red flags', 2: 'Differential diagnosis', 3: 'Biomechanics', 4: 'Test clusters & PROMs',
-              5: 'Post-surgical', 6: 'Electrophysical agents', 7: 'Manual therapy', 8: 'Loading & RTS', 9: 'Flowsheet'}
+PAGE_NAMES = {1: 'Triage & red flags', 2: 'Classification & prognosis', 3: 'Objective exam', 4: 'Tests, CPRs & PROMs',
+              5: 'Post-surgical', 6: 'Electrophysical agents', 7: 'Manual therapy', 8: 'Exercise & return to activity', 9: 'Flowsheet'}
 PAGE_COLORS = {1: '#f87171', 2: '#60a5fa', 3: '#60a5fa', 4: '#60a5fa', 5: '#c084fc', 6: '#fb923c', 7: '#2dd4bf', 8: '#4ade80', 9: '#94a3b8'}
 EV = {'H': ('High', 'ev-h'), 'M': ('Moderate', 'ev-m'), 'L': ('Low', 'ev-l'), 'E': ('Expert opinion', 'ev-e')}
 e = html.escape
