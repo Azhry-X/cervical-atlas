@@ -8,3 +8,5 @@ Quebec Task Force
 Neck Disability Index
 POST-OP RESTRICTIONS ARE SURGEON-DIRECTED
 CONSENT OBTAINED FOR:
+Patient signature
+Session 6 checkpoint

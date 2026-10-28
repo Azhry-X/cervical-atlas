@@ -1335,3 +1335,205 @@
     url: https://doi.org/10.2519/jospt.2009.2930
     free_full_text: false
   review_status: approved
+
+- id: epa-medication-safety
+  title: Electrophysical Agents & Medication Safety Screening
+  type: info
+  page: 1
+  review_status: draft
+  summary: Screening contraindications for electrophysical agents (Houghton 2010) and anticoagulants before invasive procedures (Kearns 2019).
+  steps:
+    - "Screen for electrophysical agent contraindications: implanted electronic devices, pregnancy, malignancy, recently irradiated tissue, active DVT, bleeding, impaired sensation."
+    - "Screen for anticoagulant use or coagulopathy before dry needling or invasive interventions."
+  positive: Safety clearance confirmed before applying electrophysical modalities or dry needling.
+  interpretation: "Houghton 2010 established clinical consensus on electrophysical agent contraindications; Kearns 2019 advises caution regarding increased incidence or severity of haematoma and bruising with anticoagulants."
+  metrics: "Houghton 2010 guideline contraindications; Kearns 2019 anticoagulant caution (E)"
+  evidence: Guideline
+  sources:
+    - text: Houghton 2010 Physiother Can
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3031347/
+      free_full_text: true
+    - text: Kearns 2019 J Man Manip Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6598537/
+      free_full_text: true
+
+- id: crom-frt-reliability
+  title: Cervical ROM & Flexion-Rotation Test Reliability
+  type: test
+  page: 3
+  review_status: draft
+  summary: Reliability and reference values for Cervical Active Range of Motion (CROM) and Flexion-Rotation Test (FRT).
+  steps:
+    - "CROM measurement: Position patient seated with CROM device; measure active cervical flexion, extension, lateral flexion, and rotation."
+    - "Flexion-Rotation Test (FRT): Patient supine; maximally flex cervical spine to isolate C1–C2, then rotate head fully to left and right."
+  positive: "Significant AROM restriction or FRT range < 32° / reproduction of concordant headache indicates upper cervical dysfunction."
+  interpretation: "Youdas 1992 showed intratester and intertester ICC generally greater than .80 for CROM; Hall 2010 demonstrated mean FRT range reduced by 6° in the presence of headache without changing test interpretation; Satpute 2019 confirmed high reliability for FRT and C0–C2 axial rotation, noting each test needs to be referenced to normal values."
+  metrics: "CROM ICC > .80 (Youdas 1992); FRT reduced by 6° with headache (Hall 2010); High reliability referenced to norms (Satpute 2019)"
+  evidence: M
+  sources:
+    - text: Youdas 1992 Phys Ther
+      url: https://doi.org/10.1093/ptj/72.11.770
+      free_full_text: false
+    - text: Hall 2010 J Manipulative Physiol Ther
+      url: https://doi.org/10.1016/j.jmpt.2010.09.002
+      free_full_text: false
+    - text: Satpute 2019 J Man Manip Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6484503/
+      free_full_text: true
+
+- id: hhd-strength
+  title: Hand-Held Dynamometry (HHD) Cervical Strength & Torque Calculator
+  type: info
+  page: 3
+  review_status: draft
+  summary: Standardised hand-held dynamometry (HHD) force and torque (N·m = N × m) measurement for cervical flexion, extension, retraction, and side-flexion.
+  steps:
+    - "Use the same device, same position, same strap / lever-arm point and, where possible, the same tester at every visit; compare with the other side."
+    - "Measure lever arm in cm (convert to m = cm ÷ 100) and peak force in Newtons (N) on involved and uninvolved sides."
+    - "Calculate Torque (N·m) = Force (N) × Lever arm (m) and Limb Symmetry Index (LSI % = involved ÷ uninvolved × 100)."
+  positive: Consistent test set-up allows reliable longitudinal tracking; side-to-side comparison guides rehabilitation progression.
+  interpretation: "Versteegh 2015 reported intra-session ICC flexion 0.97 (0.93–0.98), extension 0.97 (0.93–0.98), MDC 2.66–4.72 kgf (trial 1–2) and 3.38–5.64 kgf (trial 2–3), with flexion:extension ratio men 0.64 (0.55–0.73) and women 0.55 (0.48–0.62); Habberfield 2022 showed intra-rater ICC flexion 0.871, extension 0.830 in chronic whiplash; Tudini 2019 documented cervical retraction fixed HHD ICC .885–.974 and MDC 21.1 to 47.6 N."
+  metrics: "Versteegh 2015: ICC 0.97, MDC 2.66–5.64 kgf, F:E ratio men 0.64, women 0.55; Habberfield 2022: ICC 0.871 flex, 0.830 ext; Tudini 2019: ICC .885–.974, MDC 21.1 to 47.6 N"
+  evidence: M
+  calculator:
+    decimals: 1
+    expr: f_inv * lever / 100
+    inputs:
+      - key: f_inv
+        label: Involved force (N)
+        type: number
+      - key: f_uninv
+        label: Uninvolved force (N)
+        type: number
+      - key: lever
+        label: Lever arm (cm)
+        type: number
+    kind: formula
+    outputs:
+      - text: "Uninvolved torque: {f_uninv*lever/100|1} N·m · LSI: {f_inv/f_uninv*100|1}%"
+        tone: good
+        when: isFinite(f_inv) && isFinite(f_uninv) && f_uninv>0 && isFinite(lever)
+    value_label: Involved torque (N·m) = N × cm ÷ 100
+  sources:
+    - text: Versteegh 2015 Physiother Can
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4403327/
+      free_full_text: true
+    - text: Habberfield 2022 BMC Musculoskelet Disord
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9341054/
+      free_full_text: true
+    - text: Tudini 2019 J Man Manip Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7025686/
+      free_full_text: true
+
+- id: post-op-progression-criteria
+  title: Post-Operative Progression Criteria & ACDF Expected Outcome
+  type: info
+  page: 5
+  review_status: draft
+  summary: Objective progression criteria checklist following cervical spine surgery and expected outcome benchmarks.
+  steps:
+    - "Confirm surgeon clearance and verify that post-operative restrictions remain surgeon-directed."
+    - "Inspect surgical incision for complete closure and absence of dysphagia, dyspnea, or hoarseness."
+    - "Verify pain tolerance within acceptable traffic light zones on page 8."
+    - "Assess functional cervical active range of motion and upper-limb neural mobility without symptom exacerbation."
+    - "Record objective isometric cervical strength on page 3 and assess patient confidence before increasing load."
+  positive: All criteria satisfied before advancing to the next rehabilitation phase.
+  interpretation: "Peolsson 2007 demonstrated an approximate 50 % probability of pain relief and little probability of functional improvement following ACDF; POST-OP RESTRICTIONS ARE SURGEON-DIRECTED. Always follow individualised surgical protocols without fixed week counts."
+  metrics: "Approximate 50 % probability of pain relief, little probability of functional improvement (Peolsson 2007)"
+  evidence: M
+  sources:
+    - text: Peolsson 2007 Eur Spine J
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2229815/
+      free_full_text: true
+
+- id: traction-trial
+  title: Cervical Traction — Time-Limited Trial of an Adjunct
+  type: info
+  page: 6
+  review_status: draft
+  summary: Evidence and clinical decision framework for a time-limited trial of mechanical or manual cervical traction.
+  steps:
+    - "Document trial start date and agreed review date before commencing traction."
+    - "Screen for Raney 2009 CPR criteria: (1) peripheralisation with C4–7 mobility testing, (2) positive shoulder abduction test, (3) age ≥ 55, (4) positive ULTT A, (5) relief with distraction test (derivation only — not validated)."
+    - "Combine traction with active cervical exercise, scapular strengthening, and patient education."
+    - "Re-evaluate at review date: discontinue immediately if no objective functional or pain improvement."
+  positive: Meaningful reduction in radicular arm symptoms and improved functional movement during trial.
+  interpretation: "Raney 2009 derived a 5-variable CPR for cervical traction (≥ 3 of 5: LR+ 4.81 (2.17–11.4), success 44 → 79.2 %; ≥ 4 of 5: LR+ 23.1, 94.8 %; derivation only — not validated); Young 2009 tested traction added to manual therapy and exercise in an RCT and found no significant additional benefit; Graham 2008 Cochrane review found no evidence that clearly supports or refutes traction."
+  metrics: "Raney 2009 CPR (derivation only — not validated): ≥ 3/5 LR+ 4.81 (2.17–11.4), success 44 → 79.2 %; ≥ 4/5 LR+ 23.1, 94.8 %; Young 2009: no significant additional benefit; Graham 2008: no conclusive evidence"
+  evidence: M
+  sources:
+    - text: Raney 2009 Eur Spine J
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2899424/
+      free_full_text: true
+    - text: Young 2009 Phys Ther
+      url: https://doi.org/10.2522/ptj.20080283
+      free_full_text: false
+    - text: Graham 2008 Cochrane Database Syst Rev
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13429286/
+      free_full_text: true
+
+- id: needling-safety
+  title: Dry Needling Adverse Events & Cervical Danger Zones
+  type: info
+  page: 7
+  review_status: draft
+  summary: Adverse event rates and anatomical danger zones for dry needling in cervical and periscapular muscles.
+  steps:
+    - "Obtain informed consent and discuss potential adverse events and treatment alternatives."
+    - "Screen for anticoagulants or bleeding diathesis (Kearns 2019 caution regarding haematoma and bruising)."
+    - "Select appropriate needle gauge (32–36 gauge, .25–.20 mm; Halle 2016)."
+    - "Upper trapezius: In prone position, a 30 mm needle never reached the pleural space; consider needles < 40 mm (Kearns 2022)."
+    - "Rhomboid major: Insert a maximum of 19 mm to reach deep limit of rhomboid major; sex, BMI and thorax circumference explain 69.7 % of pleura depth (Valera-Calero 2021)."
+    - "Parascapular region: Women have shorter skin-to-pleura distance; depth increases with BMI (Okçu 2026)."
+  positive: Safe needling delivery without adverse events.
+  interpretation: "Brady 2014 reported mild AEs 19.18 %, upper risk rate for significant AEs ≤ 0.04 %, bruising 7.55 %, bleeding 4.65 % across 7,629 treatments; Boyce 2020 reported minor AE 36.7 %, major AE < .1 % across 20,464 treatments, with prolonged symptom aggravation .03 %, fainting .02 %, forgotten needles .01 %, noting major AEs most often occur with gluteal, lumbar paraspinal, suboccipital and upper trapezius needling; Halle 2016 documented serious risks including pneumothorax, cardiac tamponade, haematoma, infection, CNS injury; Kearns 2019 advised caution regarding haematoma and bruising with anticoagulants; Kearns 2022 found a 30 mm needle never reached pleural space in prone upper trapezius; Valera-Calero 2021 found insert a maximum of 19 mm in rhomboid major; Okçu 2026 documented shorter skin-to-pleura distance in women."
+  metrics: "Mild AEs 19.18 %, significant AEs ≤ 0.04 %, bruising 7.55 %, bleeding 4.65 % (Brady 2014); Minor AE 36.7 %, major AE < .1 % (Boyce 2020); Needles 32–36 gauge (.25–.20 mm) (Halle 2016); Upper trap < 40 mm (Kearns 2022); Rhomboid max 19 mm (Valera-Calero 2021)"
+  evidence: M
+  sources:
+    - text: Brady 2014 J Man Manip Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4101552/
+      free_full_text: true
+    - text: Boyce 2020 Int J Sports Phys Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7015026/
+      free_full_text: true
+    - text: Halle 2016 Int J Sports Phys Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4970854/
+      free_full_text: true
+    - text: Kearns 2019 J Man Manip Ther
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6598537/
+      free_full_text: true
+    - text: Kearns 2022 Musculoskelet Sci Pract
+      url: https://doi.org/10.1016/j.msksp.2022.102622
+      free_full_text: false
+    - text: Valera-Calero 2021 Int J Clin Pract
+      url: https://doi.org/10.1111/ijcp.14176
+      free_full_text: false
+    - text: Okçu 2026 Turk J Phys Med Rehabil
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13266586/
+      free_full_text: true
+
+- id: pain-monitoring-model
+  title: Pain-Monitoring Model & Activity Modification
+  type: info
+  page: 8
+  review_status: draft
+  summary: Pain-monitoring model principles and zone boundaries for exercise and functional loading progression.
+  steps:
+    - "Instruct patient to monitor pain during and immediately after exercise and functional loading."
+    - "Maintain pain at or below 5/10 on the NPRS during loading."
+    - "Verify that symptoms return to pre-activity baseline levels by the following morning."
+    - "Classify daily activities and exercises into Avoid, Modify, or OK categories based on symptom response."
+  positive: Controlled loading without symptom flare-up or morning latency increase.
+  interpretation: "Sprague 2021 established that pain should not exceed 5/10 on the NPRS during or immediately after activity and should return to pre-activity levels by the following morning; Cavaggion 2024 noted that low (0–2), acceptable (2–5) and high (5–10) risk zones were based on clinical experience; Silbernagel 2007 demonstrated that continued loading with a pain-monitoring model showed no negative effects."
+  metrics: "Pain ≤ 5/10 during/after, return to baseline by following morning (Sprague 2021); Zones low 0–2, acceptable 2–5, high 5–10 from clinical experience (Cavaggion 2024); Continued loading safe (Silbernagel 2007)"
+  evidence: E
+  sources:
+    - text: Sprague 2021 Pilot Feasibility Stud
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7905015/
+      free_full_text: true
+    - text: Cavaggion 2024 Open Access J Sports Med
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11616428/
+      free_full_text: true
+    - text: Silbernagel 2007 Am J Sports Med
+      url: https://doi.org/10.1177/0363546506298279
+      free_full_text: false

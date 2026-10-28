@@ -227,8 +227,10 @@ body{
 .sh .calc-badge, .sh .guide-badge{ text-transform:none; letter-spacing:.01em; }
 .t tr.sub .calc-badge, .t tr.sub .guide-badge{ text-transform:none; letter-spacing:.01em; }
 
+#p9-flowsheet .p { font-size: 4.9pt; letter-spacing: -0.15px; }
+
 /* ---- compiled utility classes (Tailwind v3, generated at build) ---- */
-.fixed{position:fixed}.relative{position:relative}.col-span-2{grid-column:span 2/span 2}.col-span-5{grid-column:span 5/span 5}.col-span-7{grid-column:span 7/span 7}.mb-\[2px\]{margin-bottom:2px}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mt-\[1px\]{margin-top:1px}.mt-\[2px\]{margin-top:2px}.flex{display:flex}.table{display:table}.grid{display:grid}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:.375rem}.gap-3{gap:.75rem}.gap-\[1\.5mm\]{gap:1.5mm}.gap-\[1\.5px\]{gap:1.5px}.gap-\[1px\]{gap:1px}.gap-\[2px\]{gap:2px}.gap-x-1{-moz-column-gap:.25rem;column-gap:.25rem}.gap-x-2{-moz-column-gap:.5rem;column-gap:.5rem}.border{border-width:1px}.border-l{border-left-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.pl-2{padding-left:.5rem}.pt-\[1px\]{padding-top:1px}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}
+.fixed{position:fixed}.relative{position:relative}.col-span-2{grid-column:span 2/span 2}.col-span-5{grid-column:span 5/span 5}.col-span-7{grid-column:span 7/span 7}.mb-\[1px\]{margin-bottom:1px}.mb-\[2px\]{margin-bottom:2px}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mt-\[1px\]{margin-top:1px}.mt-\[2px\]{margin-top:2px}.flex{display:flex}.table{display:table}.grid{display:grid}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-\[0\.5px\]{gap:.5px}.gap-\[1\.5mm\]{gap:1.5mm}.gap-\[1\.5px\]{gap:1.5px}.gap-\[1px\]{gap:1px}.gap-\[2px\]{gap:2px}.gap-x-1{-moz-column-gap:.25rem;column-gap:.25rem}.gap-x-2{-moz-column-gap:.5rem;column-gap:.5rem}.gap-x-3{-moz-column-gap:.75rem;column-gap:.75rem}.border{border-width:1px}.border-l{border-left-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.pl-2{padding-left:.5rem}.pt-\[1px\]{padding-top:1px}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}
 </style>
 </head>
 <body>
@@ -260,10 +262,15 @@ body{
 <div class="fr" style="flex:1.4"><span class="lb">Date</span><span class="fl"></span></div>
 </div>
 <div class="row">
-<div class="fr" style="flex:2"><span class="lb">Occupation / Posture Demand</span><span class="fl"></span></div>
+<div class="fr" style="flex:1.8"><span class="lb">Occupation / Posture Demand</span><span class="fl"></span></div>
 <div class="fr"><span class="lb">Dominant Hand</span><span class="cio"><span class="cb"></span>R</span><span class="cio"><span class="cb"></span>L</span></div>
-<div class="fr"><span class="lb">Symptom Side</span><span class="cio"><span class="cb"></span>Central</span><span class="cio"><span class="cb"></span>R</span><span class="cio"><span class="cb"></span>L</span><span class="cio"><span class="cb"></span>Bilat</span></div>
-<div class="fr"><span class="lb">Onset</span><span class="cio"><span class="cb"></span>MVC / Trauma</span><span class="cio"><span class="cb"></span>Insidious</span></div>
+<div class="fr"><span class="lb">Side</span><span class="cio"><span class="cb"></span>Central</span><span class="cio"><span class="cb"></span>R</span><span class="cio"><span class="cb"></span>L</span><span class="cio"><span class="cb"></span>Bilat</span></div>
+<div class="fr" style="flex:2"><span class="lb">Vitals:</span>
+<span class="lr">BP <span class="fl s"></span></span>
+<span class="lr">HR <span class="fl s"></span></span>
+<span class="lr">SpO₂ <span class="fl s"></span></span>
+<span class="lr">Temp <span class="fl s"></span></span>
+</div>
 </div>
 <div class="row">
 <div class="fr"><span class="lb"><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#nprs" rel="noopener" target="_blank">NPRS</a> Now (circle)</span>
@@ -272,6 +279,10 @@ body{
 </span>
 </div>
 <div class="fr" style="flex:1"><span class="lb">Arm / Headache</span><span class="cio"><span class="cb sm"></span>Neck only</span><span class="cio"><span class="cb sm"></span>Headache</span><span class="cio"><span class="cb sm r"></span>Distal arm</span><span class="lb">Worst</span><span class="fl"></span></div>
+</div>
+<div class="box r flex flex-col gap-[0.5px]" style="font-size:6.5px;line-height:1.1;padding:.2mm 1mm;">
+<div><span class="cio"><span class="cb sm r"></span><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#epa-medication-safety" rel="noopener" target="_blank"><b class="crim">EPA contraindications</b></a></span> (<a class="guide-badge" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3031347/" rel="noopener" target="_blank"><svg aria-hidden="true" class="badge-ico" viewbox="0 0 10 10"><path d="M2 .7h4.2L8.3 2.8V9.3H2z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.05"></path><path d="M6.1.8v2.1h2.1" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M3.3 5h3.5M3.3 6.6h3.5M3.3 8.1h2.2" stroke="currentColor" stroke-width=".85"></path></svg>Houghton 2010</a>): implanted electronic devices, pregnancy, malignancy, recently irradiated tissue, active DVT, bleeding, impaired sensation — Level: Guideline</div>
+<div><span class="cio"><span class="cb sm r"></span><b>Anticoagulants / coagulopathy before needling</b></span> (<a class="guide-badge" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6598537/" rel="noopener" target="_blank"><svg aria-hidden="true" class="badge-ico" viewbox="0 0 10 10"><path d="M2 .7h4.2L8.3 2.8V9.3H2z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.05"></path><path d="M6.1.8v2.1h2.1" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M3.3 5h3.5M3.3 6.6h3.5M3.3 8.1h2.2" stroke="currentColor" stroke-width=".85"></path></svg>Kearns 2019</a> <span class="eb eb-e">E</span>): caution — possible increased incidence or severity of haematoma and bruising</div>
 </div>
 </div>
 </section>
@@ -284,7 +295,7 @@ body{
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#canadian-c-spine-rule" rel="noopener" target="_blank"><b>Canadian C-Spine Rule</b></a> (Stiell 2001 JAMA) <span class="eb eb-h">H</span>: 3 questions: (1) high-risk (age ≥ 65 years, dangerous mechanism, extremity paresthesias) → image; (2) low-risk (simple rear-end MVC, sitting in ED, ambulatory, delayed neck pain, no midline tenderness) → ROM check; (3) active rotation 45° L &amp; R → no imaging. <b class="crim">Sn 100% (98–100%), Sp 42.5% (40–44%)</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#canadian-c-spine-rule" rel="noopener" target="_blank"><b>CCR vs NEXUS</b></a> (Stiell 2003 NEJM) <span class="eb eb-h">H</span>: <b class="crim">Sn 99.4% vs 90.7%; Sp 45.1% vs 36.8%; radiography rates 55.9% vs 66.6% (all P &lt; 0.001)</b> · <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#nexus-criteria" rel="noopener" target="_blank"><b>NEXUS</b></a> (Hoffman 2000 NEJM) <span class="eb eb-h">H</span>: <b class="crim">Sn 99.0% (98.0–99.6%); Sp 12.9%; NPV 99.8%</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#jospt-2017-neck-pain-cpg" rel="noopener" target="_blank"><b>Serious pathology (CPG)</b></a> (Blanpied 2017 JOSPT) (Guideline): <b class="crim">“Clinicians should perform assessments … to determine the potential for the presence of serious pathology (eg, infection, cancer, cardiac involvement, arterial insufficiency, upper cervical ligamentous insufficiency, unexplained cranial nerve dysfunction or fracture), and refer for consultation as indicated.”</b></div></div>
-<div class="sh r" style="margin:.4mm 0 .5px;"><span>Cervical Artery Dysfunction &amp; Positional VBI Testing</span><a class="guide-badge" href="https://doi.org/10.2519/jospt.2022.11147" rel="noopener" target="_blank"><svg aria-hidden="true" class="badge-ico" viewbox="0 0 10 10"><path d="M2 .7h4.2L8.3 2.8V9.3H2z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.05"></path><path d="M6.1.8v2.1h2.1" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M3.3 5h3.5M3.3 6.6h3.5M3.3 8.1h2.2" stroke="currentColor" stroke-width=".85"></path></svg>IFOMPT</a></div>
+<div class="sh r" style="margin:0 0 .5px;"><span>Cervical Artery Dysfunction &amp; Positional VBI Testing</span><a class="guide-badge" href="https://doi.org/10.2519/jospt.2022.11147" rel="noopener" target="_blank"><svg aria-hidden="true" class="badge-ico" viewbox="0 0 10 10"><path d="M2 .7h4.2L8.3 2.8V9.3H2z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.05"></path><path d="M6.1.8v2.1h2.1" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M3.3 5h3.5M3.3 6.6h3.5M3.3 8.1h2.2" stroke="currentColor" stroke-width=".85"></path></svg>IFOMPT</a></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-artery-dysfunction-ifompt" rel="noopener" target="_blank"><b>Cervical artery dysfunction</b></a> (Rushton 2023 JOSPT) (Guideline): <b class="crim">IFOMPT Framework: vascular pathologies of the neck are rare but must be considered; recognised mainly through history-taking and adapted physical examination</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#positional-vbi-tests" rel="noopener" target="_blank"><b>Positional VBI tests</b></a> (Hutting 2013 · Hutting 2022) <span class="eb eb-m">M</span>: <b class="crim">Sn 0–57%, Sp 67–100%; “the premanipulative tests do not seem valid”; positional and craniovertebral ligament testing excluded from IFOMPT</b> · <b>CAD symptoms:</b> unaccustomed headache/neck pain, diplopia, dysarthria, dysphagia, drop attacks, dizziness, facial paraesthesia, ataxia, cranial nerve deficits <span class="eb eb-e">E</span></div></div>
 </div>
@@ -293,7 +304,7 @@ body{
 <div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cook-myelopathy-cluster" rel="noopener" target="_blank"><b>Cervical myelopathy cluster (Cook)</b></a> (Cook 2010 J Man Manip Ther) <span class="eb eb-m">M</span>: 5 items: gait deviation, + <a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#hoffmann-sign" rel="noopener" target="_blank">Hoffmann</a>, <a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#inverted-supinator-sign" rel="noopener" target="_blank">inverted supinator sign</a>, + <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#babinski-hyperreflexia-myelopathy" rel="noopener" target="_blank">Babinski</a>, age &gt; 45 y. <b class="crim">≤ 1 of 5 positive: LR− 0.18 (0.12–0.42) → rules out; ≥ 3 of 5: LR+ 30.9 (5.5–181.8), post-test 94%; 4 of 5: post-test 99+% (pre-test 35%)</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#inverted-supinator-sign" rel="noopener" target="_blank"><b>Myelopathy single tests</b></a> (Cook 2010) <span class="eb eb-m">M</span>: <b class="crim">inverted supinator sign LR+ 29.1 (5.1–171.5); Achilles hyperreflexia 7.8 (2.5–25.4); quadriceps hyperreflexia 6.9 (2.8–17.5); Hoffmann LR+ 4.9 (2.6–9.6); age &gt; 45 y LR− 0.48 (0.26–0.85)</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#hoffmann-sign" rel="noopener" target="_blank"><b>Hoffmann vs cord compression</b></a> (Glaser 2001) <span class="eb eb-l">L</span>: <b class="crim">Sn 58%, Sp 78%</b> · <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cook-myelopathy-cluster" rel="noopener" target="_blank"><b>Myelopathy tests (SR)</b></a> (Cook 2011) <span class="eb eb-m">M</span>: <b class="crim">nearly all tests specific but poorly sensitive → poor screening tools alone</b></div></div>
-<div class="sh r" style="margin:.4mm 0 .5px;"><span>Upper Cervical Instability &amp; Quebec Task Force WAD Grades</span><span class="stat r">Instability &amp; WAD</span></div>
+<div class="sh r" style="margin:0 0 .5px;"><span>Upper Cervical Instability &amp; Quebec Task Force WAD Grades</span><span class="stat r">Instability &amp; WAD</span></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#sharp-purser-test" rel="noopener" target="_blank"><b>Sharp-Purser test (RA)</b></a> (Uitvlugt 1988 Arthritis Rheum) <span class="eb eb-l">L</span>: <b class="crim">Sp 96%; Sn 88% when subluxation &gt; 4 mm</b></div></div>
 <div class="ci"><span class="cb r"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#alar-ligament-stress-test" rel="noopener" target="_blank"><b>Upper cervical instability tests (SR)</b></a> (Hutting 2013 Phys Ther) <span class="eb eb-m">M</span>: <b class="crim">5 studies; specificity sufficient, sensitivity variable; membrane tests best — no pooled numbers</b></div></div>
 <div class="ci"><span class="cb"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#quebec-task-force-wad" rel="noopener" target="_blank"><b>Whiplash (WAD) grades</b></a> (Spitzer 1995 Spine) <span class="eb eb-e">E</span>: <b class="nav">Quebec Task Force grades 0–IV</b> (0: no neck complaint/signs; I: pain/stiffness only; II: neck complaint + MSK signs; III: neck complaint + neurological signs; IV: fracture/dislocation)</div></div>
@@ -360,7 +371,7 @@ body{
 <span class="cio"><span class="cb sm"></span>Moderate</span>
 <span class="cio"><span class="cb sm r"></span>High (rest/night/distal arm pain)</span>
 </div>
-<div class="sh" style="margin:.4mm 0 .5px;"><span>Mechanism &amp; Diurnal Pattern</span><span class="stat">History</span></div>
+<div class="sh" style="margin:0 0 .5px;"><span>Mechanism &amp; Diurnal Pattern</span><span class="stat">History</span></div>
 <div class="fr flex-wrap xs">
 <span class="lb">Mechanism:</span>
 <span class="cio"><span class="cb sm"></span>Rear-end MVC</span>
@@ -378,7 +389,7 @@ body{
 </div>
 </div>
 <div class="sh" style="margin:.4mm 0 .2mm;"><span>Body Chart — where is the pain?</span><span class="stat">Clinical signposts <span class="eb eb-e">E</span></span></div>
-<svg aria-label="Cervical spine body chart, posterior and anterior, with labelled clinical zones and C5–T1 dermatomes" font-family="Source Sans 3, Arial, sans-serif" style="width:100%;max-height:56mm;height:56mm;display:block" viewbox="0 0 880 322" xmlns="http://www.w3.org/2000/svg"><g>
+<svg aria-label="Cervical spine body chart, posterior and anterior, with labelled clinical zones and C5–T1 dermatomes" font-family="Source Sans 3, Arial, sans-serif" style="width:100%;max-height:52mm;height:52mm;display:block" viewbox="0 0 880 322" xmlns="http://www.w3.org/2000/svg"><g>
 <path d="M 203.0 74.0 C 202.5 88.0 202.0 98.0 200.0 105.0 C 190.0 110.0 172.0 114.0 160.0 118.0 C 144.0 120.0 132.0 130.0 131.0 152.0 C 130.0 184.0 129.0 234.0 130.0 304.0 L 151.0 304.0 C 152.0 254.0 153.0 204.0 155.0 175.0 C 158.0 172.0 160.0 174.0 161.0 177.0 C 162.0 224.0 164.0 264.0 165.0 304.0 L 275.0 304.0 C 276.0 264.0 278.0 224.0 279.0 177.0 C 280.0 174.0 282.0 172.0 285.0 175.0 C 287.0 204.0 288.0 254.0 289.0 304.0 L 310.0 304.0 C 311.0 234.0 310.0 184.0 309.0 152.0 C 308.0 130.0 296.0 120.0 280.0 118.0 C 268.0 114.0 250.0 110.0 240.0 105.0 C 238.0 98.0 237.5 88.0 237.0 74.0 Z" fill="#f4dccb" stroke="#b88a6e" stroke-linejoin="round" stroke-width="1.1"></path>
 <path d="M 160 118 C 144 120 132 130 131 152 C 130 184 129 234 130 304 L 138 304 C 137 234 138 184 140 154 C 142 136 150 126 160 122 Z" fill="#d9a888" fill-opacity=".28"></path>
 <path d="M 161 177 C 162 224 164 264 165 304 L 173 304 C 171 264 169 224 167 182 Z" fill="#d9a888" fill-opacity=".22"></path>
@@ -465,7 +476,7 @@ body{
 </div>
 </div>
 </section>
-<div class="dots fill" id="p1-notes"><span class="dots-l">Subjective History · Mechanism · Patient Goals (PSFS)</span></div>
+<div class="dots" id="p1-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Subjective History · Mechanism · Patient Goals (PSFS)</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -660,7 +671,7 @@ body{
 </tr>
 </tbody>
 </table>
-<div class="xs mt-[1px]"><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-arom-rondoni" rel="noopener" target="_blank"><b>Active cervical ROM reliability (SR)</b></a> (Rondoni 2017 J Manipulative Physiol Ther) <span class="eb eb-m">M</span>: <b class="nav">intrarater ICC 0.93 (inexpensive) vs 0.91 (expensive devices); inter-rater 0.80 vs 0.87 → expensive devices add no reliability; side-bending least reliable</b>.</div>
+<div class="xs mt-[1px]"><b>ROM &amp; FRT reliability:</b> <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#crom-frt-reliability" rel="noopener" target="_blank">CROM (Youdas 1992)</a> <span class="eb eb-m">M</span>: intratester and intertester ICC generally greater than .80 • <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#crom-frt-reliability" rel="noopener" target="_blank">FRT (Hall 2010)</a> <span class="eb eb-m">M</span>: mean FRT range reduced by 6° in the presence of headache, without changing test interpretation • Satpute 2019 <span class="eb eb-m">M</span>: high reliability; each test needs to be referenced to normal values.</div>
 </div>
 </section>
 <!-- 2 : CPG Exam Set, CCFT, DNF Endurance, JPE & HHD -->
@@ -669,7 +680,28 @@ body{
 <div class="card-b flex flex-col gap-[1.5px]" style="padding:.8mm 1.2mm;">
 <div class="ci"><span class="cb n"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-segmental-mobility-ppt-hhd" rel="noopener" target="_blank"><b>CPG exam set</b></a> (Blanpied 2017 JOSPT, Guideline): <b class="nav">mobility deficits: AROM, flexion-rotation test, cervical/thoracic segmental mobility; headache: AROM, FRT, upper cervical mobility; radiating: neurodynamic, Spurling, distraction, Valsalva; coordination: cranial cervical flexion + neck flexor endurance tests; algometric pressure pain threshold</b>.</div></div>
 <div class="ci"><span class="cb n"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#craniocervical-flexion-test" rel="noopener" target="_blank"><b>Craniocervical flexion test (CCFT)</b></a> (Jull 2008 J Manipulative Physiol Ther) <span class="eb eb-e">E</span>: <b class="nav">5 progressive pressure stages (pressure biofeedback) testing deep cervical flexor activation and endurance</b> • Stage / Notes: <span class="fl m"></span></div></div>
-<div class="ci"><span class="cb n"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#neck-flexor-endurance-test" rel="noopener" target="_blank"><b>Deep neck flexor endurance test</b></a> &amp; <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-segmental-mobility-ppt-hhd" rel="noopener" target="_blank"><b>HHD</b></a> <span class="eb eb-e">E</span>: record hold time and side-to-side force; compare with the patient’s own baseline (no published norm used) • DNF Hold Write-In: <span class="fl s"></span> HHD L/R Write-In: <span class="fl s"></span></div></div>
+<div class="ci"><span class="cb n"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#neck-flexor-endurance-test" rel="noopener" target="_blank"><b>Deep neck flexor endurance test:</b></a> record hold time; compare with baseline • DNF Hold Write-In: <span class="fl s"></span></div></div>
+<div class="mt-[1px]">
+<div class="xs b mb-[1px]"><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#hhd-strength" rel="noopener" target="_blank">Isometric Cervical Strength (HHD) · Torque &amp; LSI Tracking</a> <span class="eb eb-m">M</span>:</div>
+<table class="t dense">
+<thead>
+<tr>
+<th style="width:26%">Movement</th>
+<th class="c" style="width:16%">Lever arm (cm)</th>
+<th class="c" style="width:22%">Force (N) inv / uninv</th>
+<th class="c" style="width:20%">Torque (N·m) = N × cm ÷ 100</th>
+<th class="c" style="width:16%">LSI % = inv ÷ uninv × 100</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="k">Cervical Flexion</td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="k">Cervical Extension</td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="k">Cervical Retraction</td><td></td><td></td><td></td><td></td></tr>
+<tr><td class="k">Side-Flexion (L / R)</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<div class="xxs mut mt-[1px]">Method: Versteegh 2015 <span class="eb eb-m">M</span>: intra-session ICC flexion 0.97 (0.93–0.98), extension 0.97 (0.93–0.98); MDC 2.66–4.72 kgf (trial 1–2) and 3.38–5.64 kgf (trial 2–3); flexion:extension ratio men 0.64 (0.55–0.73), women 0.55 (0.48–0.62) • Habberfield 2022 <span class="eb eb-l">L</span>: intra-rater ICC flexion 0.871, extension 0.830 • Tudini 2019 <span class="eb eb-m">M</span>: ICC .885–.974; MDC 21.1 to 47.6 N • Same tester, device, position at every visit (E).</div>
+</div>
 <div class="ci"><span class="cb n"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-joint-position-error" rel="noopener" target="_blank"><b>Joint position error (JPE)</b></a> (Revel 1991 Arch Phys Med Rehabil; Treleaven 2006 Man Ther) <span class="eb eb-l">L</span>: <b class="nav">proprioceptive deficit in neck pain (Revel); abnormal rotation JPE: PPV 88% but Sn 60%, Sp 54% for balance problems in WAD</b> • JPE Write-In: <span class="fl s"></span></div></div>
 <div class="box flex flex-wrap items-center justify-between xs mt-[1px]" style="padding:.4mm 1mm;">
 <span><b>Segmental Mobility (C0–T4):</b> <span class="cio"><span class="cb sm"></span>C0–C2 hypomobile</span><span class="cio"><span class="cb sm"></span>C2–C7 hypomobile</span><span class="cio"><span class="cb sm r"></span>C4–7 peripheralises</span><span class="cio"><span class="cb sm"></span>Thoracic hypomobile</span></span>
@@ -737,7 +769,7 @@ body{
 </table>
 </div>
 </section>
-<div class="dots fill" id="p3-notes"><span class="dots-l">Objective Examination Notes · Segmental Mobility · Motor Control &amp; Neurological Findings</span></div>
+<div class="dots" id="p3-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Objective Examination Notes · Segmental Mobility · Motor Control &amp; Neurological Findings</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -921,6 +953,7 @@ body{
 <div class="card-h"><span>3 · Structured Post-Op Physiotherapy After ACDF <a aria-label="Open Atlas info card" class="info-icon" href="https://azhry-x.github.io/cervical-atlas/#postop-physio-acdf-wibault" rel="noopener" target="_blank"><svg aria-hidden="true" class="info-svg" viewbox="0 0 24 24"><circle cx="12" cy="12" fill="none" r="10" stroke="currentColor" stroke-width="2.2"></circle><line stroke="currentColor" stroke-width="2.4" x1="12" x2="12" y1="16.5" y2="10.5"></line><circle cx="12" cy="7.3" fill="currentColor" r="1.4"></circle></svg></a></span><span class="tag">WIBAULT 2018</span></div>
 <div class="card-b flex flex-col gap-[1.5px]" style="padding:.8mm 1.2mm;">
 <div class="ci"><span class="cb"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#postop-physio-acdf-wibault" rel="noopener" target="_blank"><b>Structured post-op physiotherapy after ACDF (RCT)</b></a> (Wibault 2018 J Neurosurg Spine) <span class="eb eb-m">M</span>: <b class="nav">only minor additional benefit at 6 months (expectation fulfilment); 61% of standard-care patients sought extra physiotherapy</b>.</div></div>
+<div class="ci"><span class="cb"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#post-op-progression-criteria" rel="noopener" target="_blank"><b>ACDF — expected outcome</b></a> (Peolsson 2007 Eur Spine J) <span class="eb eb-m">M</span>: approximate 50 % probability of pain relief and little probability of functional improvement.</div></div>
 </div>
 </section>
 <section class="card" id="p5-cda-acdf">
@@ -944,7 +977,23 @@ body{
 </div>
 </div>
 </section>
-<div class="dots fill" id="p5-notes"><span class="dots-l">Operative Findings · Surgeon-Directed Restrictions · Post-Surgical Rehabilitation Notes</span></div>
+<!-- 5 : Criteria to Progress Checklist -->
+<section class="card" id="p5-progression-criteria">
+<div class="card-h"><span>6 · Post-Operative Progression Criteria Checklist <a aria-label="Open Atlas info card" class="info-icon" href="https://azhry-x.github.io/cervical-atlas/#post-op-progression-criteria" rel="noopener" target="_blank"><svg aria-hidden="true" class="info-svg" viewbox="0 0 24 24"><circle cx="12" cy="12" fill="none" r="10" stroke="currentColor" stroke-width="2.2"></circle><line stroke="currentColor" stroke-width="2.4" x1="12" x2="12" y1="16.5" y2="10.5"></line><circle cx="12" cy="7.3" fill="currentColor" r="1.4"></circle></svg></a></span><span class="tag">CRITERIA TO PROGRESS</span></div>
+<div class="card-b grid grid-cols-2 gap-x-2" style="padding:.7mm 1.2mm;">
+<div>
+<div class="ci"><span class="cb sm g"></span><div><b>Surgeon clearance:</b> formal sign-off for active phase progression • <b class="crim">POST-OP RESTRICTIONS ARE SURGEON-DIRECTED</b> <span class="eb eb-e">E</span></div></div>
+<div class="ci"><span class="cb sm g"></span><div><b>Surgical wound:</b> fully healed, dry, no signs of erythema, infection, or dehiscence <span class="eb eb-e">E</span></div></div>
+<div class="ci"><span class="cb sm g"></span><div><b>Pain tolerance:</b> symptoms within acceptable pain-monitoring zones on page 8 (NPRS ≤ 5/10) <span class="eb eb-e">E</span></div></div>
+</div>
+<div>
+<div class="ci"><span class="cb sm g"></span><div><b>Range of motion:</b> functional cervical AROM vs other side / pre-op baseline without neural tension <span class="eb eb-e">E</span></div></div>
+<div class="ci"><span class="cb sm g"></span><div><b>Strength symmetry:</b> objective isometric cervical strength LSI recorded on page 3 <span class="eb eb-e">E</span></div></div>
+<div class="ci"><span class="cb sm g"></span><div><b>Movement quality &amp; confidence:</b> controlled segmental movement; patient expresses confidence to load <span class="eb eb-e">E</span></div></div>
+</div>
+</div>
+</section>
+<div class="dots" id="p5-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Operative Findings · Surgeon-Directed Restrictions · Post-Surgical Rehabilitation Notes</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -1037,7 +1086,20 @@ body{
 </table>
 </div>
 </section>
-<div class="dots fill" id="p6-notes"><span class="dots-l">Traction Positioning · Raney CPR Status · Multimodal Exercise Pairing Notes</span></div>
+<!-- Time-Limited Trial of Traction Box -->
+<div class="box flex flex-col gap-[1px] xs" style="padding:.8mm 1.4mm;margin-top:1.5mm;border-left:3px solid var(--navy);">
+<div class="flex items-center justify-between">
+<b class="nav">Traction: time-limited trial of an adjunct <a aria-label="Open Atlas info card" class="info-icon" href="https://azhry-x.github.io/cervical-atlas/#traction-trial" rel="noopener" target="_blank"><svg aria-hidden="true" class="info-svg" viewbox="0 0 24 24"><circle cx="12" cy="12" fill="none" r="10" stroke="currentColor" stroke-width="2.2"></circle><line stroke="currentColor" stroke-width="2.4" x1="12" x2="12" y1="16.5" y2="10.5"></line><circle cx="12" cy="7.3" fill="currentColor" r="1.4"></circle></svg></a></b>
+<span class="tag">TIME-LIMITED TRIAL</span>
+</div>
+<div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#traction-trial" rel="noopener" target="_blank"><b>Raney 2009 CPR (derivation only — not validated)</b></a> <span class="eb eb-l">L</span>: ≥ 3 of 5: LR+ 4.81 (2.17–11.4), success 44 → 79.2 %; ≥ 4 of 5: LR+ 23.1, 94.8 %; rule needs validation • <b>Young 2009</b> <span class="eb eb-m">M</span>: no significant additional benefit • <b>Graham 2008 Cochrane</b> <span class="eb eb-m">M</span>: no evidence that clearly supports or refutes traction.</div>
+<div class="flex flex-wrap items-center gap-x-3 mt-[1px]">
+<span class="lr">Trial Start Date: <span class="fl s"></span></span>
+<span class="lr">Agreed Review Date: <span class="fl s"></span></span>
+<span class="cio"><span class="cb sm r"></span>Stop immediately if no objective change</span>
+</div>
+</div>
+<div class="dots" id="p6-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Traction Positioning · Multimodal Exercise Pairing Notes</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -1121,6 +1183,15 @@ body{
 <div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#cervical-artery-dysfunction-ifompt" rel="noopener" target="_blank"><b>Cervical artery dysfunction — IFOMPT International Framework (2023)</b></a> <a class="guide-badge" href="https://doi.org/10.2519/jospt.2022.11147" rel="noopener" target="_blank"><svg aria-hidden="true" class="badge-ico" viewbox="0 0 10 10"><path d="M2 .7h4.2L8.3 2.8V9.3H2z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.05"></path><path d="M6.1.8v2.1h2.1" fill="none" stroke="currentColor" stroke-width="1"></path><path d="M3.3 5h3.5M3.3 6.6h3.5M3.3 8.1h2.2" stroke="currentColor" stroke-width=".85"></path></svg>Rushton 2023</a> (Guideline): <b class="crim">vascular pathologies of the neck are rare but must be considered; recognised mainly through history-taking and adapted physical examination</b>; <a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#positional-vbi-tests" rel="noopener" target="_blank">positional VBI testing</a> and craniovertebral ligament testing are excluded from the IFOMPT Framework (Hutting 2022) <span class="eb eb-m">M</span>.</div></div>
 </div>
 </section>
+<!-- 4 : Dry Needling Safety & Anatomical Danger Zones -->
+<section class="card red" id="p7-needling-safety">
+<div class="card-h"><span>6 · Dry Needling Safety &amp; Anatomical Danger Zones <a aria-label="Open Atlas info card" class="info-icon" href="https://azhry-x.github.io/cervical-atlas/#needling-safety" rel="noopener" target="_blank"><svg aria-hidden="true" class="info-svg" viewbox="0 0 24 24"><circle cx="12" cy="12" fill="none" r="10" stroke="currentColor" stroke-width="2.2"></circle><line stroke="currentColor" stroke-width="2.4" x1="12" x2="12" y1="16.5" y2="10.5"></line><circle cx="12" cy="7.3" fill="currentColor" r="1.4"></circle></svg></a></span><span class="tag">SAFETY SCREEN</span></div>
+<div class="card-b flex flex-col gap-[1.5px]" style="padding:.8mm 1.2mm;">
+<div class="ci"><span class="cb r"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#needling-safety" rel="noopener" target="_blank"><b>Adverse event rates:</b></a> Brady 2014 <span class="eb eb-m">M</span>: mild AEs 19.18 %; upper risk rate for significant AEs ≤ 0.04 %; bruising 7.55 %, bleeding 4.65 % • Boyce 2020 <span class="eb eb-m">M</span>: minor AE 36.7 %; major AE &lt; .1 % (prolonged symptom aggravation .03 %, fainting .02 %, forgotten needles .01 %; major AEs most often with gluteal, lumbar paraspinal, suboccipital and upper trapezius needling)</div></div>
+<div class="ci"><span class="cb r"></span><div><b>Serious risks &amp; screening:</b> Halle 2016 <span class="eb eb-e">E</span>: pneumothorax, cardiac tamponade, haematoma, infection, CNS injury; filament needles 32–36 gauge (.25–.20 mm) • Kearns 2019 <span class="eb eb-e">E</span>: anticoagulants / coagulopathy — caution — possible increased incidence or severity of haematoma and bruising</div></div>
+<div class="ci"><span class="cb r"></span><div><b>Cervical / scapular danger zones:</b> Kearns 2022 <span class="eb eb-l">L</span>: upper trapezius — a 30 mm needle never reached the pleural space; consider needles &lt; 40 mm • Valera-Calero 2021 <span class="eb eb-m">M</span>: rhomboid major — insert a maximum of 19 mm to reach the deep limit of rhomboid major; sex, BMI and thorax circumference explain 69.7 % of pleura depth • Okçu 2026 <span class="eb eb-l">L</span>: parascapular region — women: shorter skin-to-pleura distance; depth increases with BMI</div></div>
+</div>
+</section>
 <!-- Consent Block -->
 <div class="box r flex flex-wrap items-center xs" style="padding:.7mm 1.6mm;">
 <b class="crim mr-2">CONSENT OBTAINED FOR:</b>
@@ -1132,7 +1203,7 @@ body{
 <span class="cio"><span class="cb r"></span>Patient may decline</span>
 <span class="lr" style="margin-left:auto">Signature <span class="fl l"></span></span>
 </div>
-<div class="dots fill" id="p7-notes"><span class="dots-l">Manual Therapy Clinical Reasoning · IFOMPT Vascular Screen · Immediate Re-Test Notes</span></div>
+<div class="dots" id="p7-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Manual Therapy Clinical Reasoning · IFOMPT Vascular Screen · Immediate Re-Test Notes</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -1199,9 +1270,31 @@ body{
 <div class="ci"><span class="cb g"></span><div><a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#craniocervical-flexion-test" rel="noopener" target="_blank"><b>CCFT / DNF training progression</b></a> <span class="eb eb-e">E</span>: stage-by-stage low-load craniocervical flexion motor control retraining without superficial sternocleidomastoid/scalene substitution, progressing to <a class="test-link has-video" href="https://azhry-x.github.io/cervical-atlas/#neck-flexor-endurance-test" rel="noopener" target="_blank">deep neck flexor endurance</a> in upright postures and cervico-scapulothoracic + upper-limb strengthening.</div></div>
 </div>
 </section>
-<!-- 3 : 12-Week Loading Log (Blank Write-In Fields) -->
+<!-- 3 : Pain-Monitoring Model & Activity Guidance -->
+<section class="card" id="p8-pain-monitoring">
+<div class="card-h"><span>4 · Pain-Monitoring Model &amp; Activity Modification <a aria-label="Open Atlas info card" class="info-icon" href="https://azhry-x.github.io/cervical-atlas/#pain-monitoring-model" rel="noopener" target="_blank"><svg aria-hidden="true" class="info-svg" viewbox="0 0 24 24"><circle cx="12" cy="12" fill="none" r="10" stroke="currentColor" stroke-width="2.2"></circle><line stroke="currentColor" stroke-width="2.4" x1="12" x2="12" y1="16.5" y2="10.5"></line><circle cx="12" cy="7.3" fill="currentColor" r="1.4"></circle></svg></a></span><span class="tag">TRAFFIC LIGHT</span></div>
+<div class="card-b grid grid-cols-12 gap-2" style="padding:.8mm 1.2mm;">
+<div class="col-span-7 flex flex-col gap-[1.5px]">
+<div class="ci"><span class="cb g"></span><div><a class="test-link" href="https://azhry-x.github.io/cervical-atlas/#pain-monitoring-model" rel="noopener" target="_blank"><b>Pain-monitoring model:</b></a> Sprague 2021 <span class="eb eb-e">E</span>: <b class="emer">pain should not exceed 5/10 on the NPRS during or immediately after activity and should return to pre-activity levels by the following morning</b> • Silbernagel 2007 <span class="eb eb-m">M</span>: continued tendon loading with a pain-monitoring model showed no negative effects</div></div>
+<div class="ci"><span class="cb"></span><div><b>Origin of the zones:</b> Cavaggion 2024 <span class="eb eb-e">E</span>: low (0–2), acceptable (2–5) and high (5–10) risk zones were based on clinical experience</div></div>
+<div class="flex items-center gap-1 xs mt-[1px]">
+<span class="badge badge-green">Low 0–2 (Safe)</span>
+<span class="badge badge-amber">Acceptable 2–5 (Monitor)</span>
+<span class="badge badge-red">High 5–10 (Excessive)</span>
+</div>
+</div>
+<div class="col-span-5">
+<div class="xs b mb-[1px]">Activity Guidance (E):</div>
+<table class="t dense">
+<thead><tr><th style="width:33%">Avoid</th><th style="width:33%">Modify</th><th style="width:34%">OK</th></tr></thead>
+<tbody><tr style="height:5.5mm;"><td></td><td></td><td></td></tr></tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- 4 : 12-Week Loading Log (Blank Write-In Fields) -->
 <section class="card" id="p8-loading-log">
-<div class="card-h"><span>4 · 12-Week Cervical Exercise &amp; Return-to-Activity Progression Log</span><span class="tag">12-WEEK LOG</span></div>
+<div class="card-h"><span>5 · 12-Week Cervical Exercise &amp; Return-to-Activity Progression Log</span><span class="tag">12-WEEK LOG</span></div>
 <div class="card-b" style="padding:.8mm 1.2mm;">
 <div class="flex flex-wrap xs mb-[2px]" style="row-gap:1px">
 <span class="lb mr-1">Primary Programme Ticked:</span>
@@ -1222,16 +1315,16 @@ body{
 </tr>
 </thead>
 <tbody>
-<tr style="height:6mm;"><td class="k">1 · Craniocervical / DNF Motor Control</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr style="height:6mm;"><td class="k">2 · Cervico-Scapulothoracic Strengthening</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr style="height:6mm;"><td class="k">3 · Upper-Limb Strengthening &amp; Stretching</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr style="height:6mm;"><td class="k">4 · Active Cervical ROM / Self-SNAG / JPE</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr style="height:6mm;"><td class="k">5 · Occupational &amp; Activity Participation</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr style="height:5mm;"><td class="k">1 · Craniocervical / DNF Motor Control</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr style="height:5mm;"><td class="k">2 · Cervico-Scapulothoracic Strengthening</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr style="height:5mm;"><td class="k">3 · Upper-Limb Strengthening &amp; Stretching</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr style="height:5mm;"><td class="k">4 · Active Cervical ROM / Self-SNAG / JPE</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr style="height:5mm;"><td class="k">5 · Occupational &amp; Activity Participation</td><td></td><td></td><td></td><td></td><td></td></tr>
 </tbody>
 </table>
 </div>
 </section>
-<div class="dots fill" id="p8-notes"><span class="dots-l">Exercise Prescription Details · Load Progression · Return-to-Activity Criteria Notes</span></div>
+<div class="dots" id="p8-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Exercise Prescription Details · Load Progression · Return-to-Activity Criteria Notes</span></div>
 
   </main>
   <footer class="pg-ftr">
@@ -1274,115 +1367,116 @@ body{
  <table class="t flow slate" id="p9-flowsheet" style="table-layout:fixed;">
 <thead>
 <tr>
-<th class="c" style="width:4%">#</th>
-<th style="width:7%">Date</th>
-<th style="width:6%">NPRS</th>
-<th style="width:8%">Flex / Ext</th>
-<th style="width:8%">Rot L / R</th>
-<th style="width:7%">FRT / ULTT</th>
-<th style="width:24%">Exercise &amp; Motor Control Delivered</th>
+<th class="c" style="width:3%">#</th>
+<th style="width:6%">Date</th>
+<th style="width:5%">NPRS</th>
+<th style="width:7%">Flex / Ext</th>
+<th style="width:7%">Rot L / R</th>
+<th style="width:6.5%">FRT / ULTT</th>
+<th style="width:22%">Exercise &amp; Motor Control Delivered</th>
 <th style="width:16%">Manual &amp; Traction</th>
-<th style="width:8%">Irritability</th>
-<th style="width:8%">Adherence</th>
+<th style="width:7.5%">Irritability</th>
+<th style="width:7%">Adherence</th>
+<th style="width:10%;font-size:5.2pt;white-space:nowrap;">Patient signature</th>
 <th class="c" style="width:4%">Init</th>
 </tr>
 </thead>
 <tbody>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">1</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">2</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">3</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">4</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">5</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">6</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">7</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">8</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">9</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">10</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">11</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
-<tr style="height:12.2mm;">
+<tr style="height:11.2mm;">
 <td class="vnum">12</td>
 <td></td><td></td><td></td><td></td><td></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">CCFT/DNF | Scap/UL | AROM | SNAG | Advice</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Mob | Thor Manip | Tract | LLLT</div></td>
 <td style="vertical-align:bottom;padding-bottom:1.2px;"><div class="p">Low | Mod | High</div></td>
-<td></td><td></td>
+<td></td><td></td><td></td>
 </tr>
 </tbody>
 </table>
@@ -1421,7 +1515,11 @@ body{
 </div>
 </section>
 </div>
-<div class="dots fill" id="p9-notes" style="min-height:8mm"><span class="dots-l">Home Exercise Maintenance · Ergonomic / Activity Plan · Discharge Summary</span></div>
+<div class="box amber xs flex flex-wrap items-center" style="padding:.7mm 1.5mm;margin-top:1mm;">
+<b class="mr-2">Session 6 checkpoint:</b>
+<span>Re-score the main PROM against the MCID / MDC already on the sheet. If there is no change, re-assess the diagnosis, the dose or referral (E).</span>
+</div>
+<div class="dots" id="p9-notes" style="min-height:5mm;height:5mm;"><span class="dots-l">Home Exercise Maintenance · Ergonomic / Activity Plan · Discharge Summary</span></div>
 <div class="fr xs" style="gap:2mm"><span class="lb">Clinician / Referring follow-up</span><span class="fl"></span><span class="lb">Signature</span><span class="fl"></span><span class="lb">Date</span><span class="fl m"></span></div>
 
   </main>
